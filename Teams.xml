@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<myTeams>
+    <team>
+        <Name>Manchester United</Name>
+        <Location>Manchester</Location>
+        <Captain>Paul Pogba</Captain>
+        <Nickname>Red Devils</Nickname>
+    </team>
+    <team>
+        <Name>Manchester United</Name>
+        <Location></Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+    </team>
+    <team>
+        <Name>Manchester</Name>
+        <Location></Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+    </team>
+    <team>
+        <Name></Name>
+        <Location></Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+    </team>
+    <team>
+        <Name>asdasd</Name>
+        <Location></Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+    </team>
+    <team>
+        <Name>Liverpool FC</Name>
+        <Location>Liverpool</Location>
+        <Captain>Dunno</Captain>
+        <Nickname>ddd</Nickname>
+    </team>
+</myTeams>
