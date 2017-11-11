@@ -1,5 +1,5 @@
 {
-  "name": "wad-simple-demo",
+  "name": "Sample-Project",
   "version": "1.0.0",
   "description": "demo app to make AJAX requests to load results of XSL transformation and send POST requests to add new information to JSON and XML files",
   "main": "app.js",
@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikhail-nci/wad-simple-demo.git"
+    "url": "git+https://github.com/Paddy-NCirl17/Sample-Project.git"
   },
   "author": "Mikhail",
-  "homepage": "https://github.com/mikhail-nci/wad-simple-demo#readme"
+  "homepage": "https://github.com/Paddy-NCirl17/Sample-Project.git#readme"
 }
