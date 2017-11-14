@@ -5,5 +5,251 @@
         <Location>Manchester</Location>
         <Captain>Paul Pogba</Captain>
         <Nickname>Red Devils</Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.4632442</lat>
+                <long>-2.2935077</long>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
+        <Name></Name>
+        <Location>Dublin</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.3498053</lat>
+                <lng>-6.2603097</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
+        <Name></Name>
+        <Location>Dublin</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.3498053</lat>
+                <lng>-6.2603097</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
+        <Name></Name>
+        <Location>Dublin</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.3498053</lat>
+                <lng>-6.2603097</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
+        <Name></Name>
+        <Location>Dublin</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.3498053</lat>
+                <lng>-6.2603097</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
+        <Name></Name>
+        <Location>Dublin</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.3498053</lat>
+                <lng>-6.2603097</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
+        <Name></Name>
+        <Location>dublin</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <locality>
+                <long_name>Dublin</long_name>
+                <short_name>Dublin</short_name>
+            </locality>
+            <administrative_area_level_1>
+                <long_name>County Dublin</long_name>
+                <short_name>County Dublin</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>Ireland</long_name>
+                <short_name>IE</short_name>
+            </country>
+            <formatted_address>Dublin, Ireland</formatted_address>
+            <location>
+                <lat>53.3498053</lat>
+                <lng>-6.2603097</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>53.42521010000001</lat>
+                    <lng>-6.0439235</lng>
+                </northeast>
+                <southwest>
+                    <lat>53.22343009999999</lat>
+                    <lng>-6.4474847</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
     </team>
 </myTeams>

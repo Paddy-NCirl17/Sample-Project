@@ -5,8 +5,10 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "ejs": "^2.5.7",
     "express": "^4.14.0",
     "fs": "0.0.1-security",
+    "google-geocoder": "^0.2.1",
     "js2xmlparser": "^2.0.2",
     "libxslt": "^0.6.3"
   },
