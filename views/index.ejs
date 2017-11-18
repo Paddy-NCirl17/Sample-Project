@@ -17,8 +17,9 @@
     td {
       border-collapse: collapse;
       border: 1px solid black;
-      text-align: center;
-    }
+      text-align: center;       
+      }
+
 
     #map {
         height: 200px;
@@ -38,7 +39,7 @@
         cache: false,
         success: function(html) {
           
-          $("#results").append(html);
+          $("#results").prepend(html);
         }
       });
     };
@@ -54,26 +55,34 @@
       function initMap() {
           var data = <%- JSON.stringify(team) %>;
           console.log(data);
-         var result = {lat: data[0].coordinates[0].location.lat, lng: data[0].coordinates[0].location.long};
+         var result = {lat: data[0].coordinates[0].location.lat, lng: data[0].coordinates[0].location.lng};
+          console.log(result);
          // var result = {lat: 53.3498, lng:-6.2603}
           var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
           center: result
         });
 
-        var contentString = "<h2>Manchester<h2>"
-
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
-           var  marker = new google.maps.Marker({
-                position: result,
-                animation: google.maps.Animation.DROP,
+        //var contentString = data[0].Captain;
+        
+        var marker;
+        var contentString;
+        var infowindow;
+        for(i = 0; i < data.length; i++){
+          console.log({lat: data[i].coordinates[0].location.lat, lng: data[i].coordinates[0].location.lng})
+            marker = new google.maps.Marker({
+            position: {lat: data[i].coordinates[0].location.lat, lng: data[i].coordinates[0].location.lng},
+            animation: google.maps.Animation.DROP,
                 map: map,
            });
         marker.addListener('click', function() {
           infowindow.open(map, marker);
         });
+          infowindow = new google.maps.InfoWindow({
+          contentString: data[i].Captain +"\n"+ data[i].Location +"\n"+ data[i].Name +"\n"+ data[i].Knickname
+        });
+         console.log(contentString);
+        }   
       }
     </script>
     <script async defer
@@ -100,7 +109,7 @@
                 <input type="text" name="Name" placeholder="Name">
               </div>
               <div class="field">
-                <input type="text" name="Location" placeholder="Location">
+                <input type="text" name="Location" placeholder="City, Country">
               </div>
               <div class="field">
                 <input type="text" name="Captain" placeholder="Captain">
@@ -110,6 +119,7 @@
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
+                <button type="remove">Remove</button>                
               </div>
             </form>
           </li>

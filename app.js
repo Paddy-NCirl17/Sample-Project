@@ -55,7 +55,7 @@ router.get('/json/get',function(req,res){
 router.post('/post/json', function(req, res) {
 
   // Function to read in a JSON file, add to it & convert to XML
-  function appendJSON(obj) {
+  function prependJSON(obj) {
     
      geo.find(obj.Location,function(err, response){
        // Read in a JSON file
@@ -66,7 +66,7 @@ router.post('/post/json', function(req, res) {
 
         // Add a new record into team array within the JSON file
         obj.coordinates = response;
-        JSONparsed.team.push(obj);
+        JSONparsed.team.unshift(obj);
 
         // Beautify the resulting JSON file
         var JSONformated = JSON.stringify(JSONparsed, null, 4);
@@ -91,7 +91,7 @@ router.post('/post/json', function(req, res) {
   }
 
   // Call appendJSON function and pass in body of the current POST request
-  appendJSON(req.body);
+  prependJSON(req.body);
   
   
 
