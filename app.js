@@ -33,7 +33,7 @@ router.get('/get/html', function(req, res) {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     
     var docSource = fs.readFileSync('Teams.xml', 'utf8');
-    console.log(docSource.toString());
+    //console.log(docSource.toString());
     var stylesheetSource = fs.readFileSync('Teams.xsl', 'utf8');
     
     var doc = libxslt.libxmljs.parseXml(docSource);
