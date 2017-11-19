@@ -18,12 +18,13 @@
 			  </style>
 			</head>
 			<body>
-				<table>
+				<table id = "myTable">
 					<tr>
 						<th>Name</th>
 						<th>Location</th>
 						<th>Captain</th>
 						<th>Nickname</th>
+						<th>Delete</th>
 					</tr>
 					<xsl:for-each select="myTeams/team">
 							<tr>
@@ -39,6 +40,11 @@
 								<td>
 									<xsl:value-of select="Nickname"/>
 								</td>
+								<td width="50" align="center">
+   							<input name="Delete"   Type="button"   value="Delete" >
+      					<xsl:attribute name="onclick">javascript:myDeleteFunction('<xsl:value-of select="Delete" />')</xsl:attribute>
+   							</input>
+							</td>
 							</tr>
 					</xsl:for-each>
 				</table>
