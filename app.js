@@ -51,6 +51,19 @@ router.get('/json/get',function(req,res){
   res.end(JSON.stringify(jsonParsed));
 })
 
+router.post('/json/delete',function(req,res){
+  
+ var docSource = fs.readFileSync('Teams.xml', 'utf8');//Open File 
+ var jsonParsed = JSON.parse(json);//parse to json
+  //loop through object to find record
+  //splice record
+  //stringify object
+  //write to file
+  
+ 
+  
+})
+
 // POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
 

@@ -1,6 +1,124 @@
 <?xml version='1.0'?>
 <myTeams>
     <team>
+        <Name>Patrick</Name>
+        <Location>Manchester City FC, UK</Location>
+        <Captain>Patrick</Captain>
+        <Nickname>Paddy</Nickname>
+        <coordinates>
+            <premise>
+                <long_name>Etihad Campus</long_name>
+                <short_name>Etihad Campus</short_name>
+            </premise>
+            <route>
+                <long_name>Rowsley Street</long_name>
+                <short_name>Rowsley St</short_name>
+            </route>
+            <postal_town>
+                <long_name>Manchester</long_name>
+                <short_name>Manchester</short_name>
+            </postal_town>
+            <administrative_area_level_2>
+                <long_name>Greater Manchester</long_name>
+                <short_name>Greater Manchester</short_name>
+            </administrative_area_level_2>
+            <administrative_area_level_1>
+                <long_name>England</long_name>
+                <short_name>England</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>United Kingdom</long_name>
+                <short_name>GB</short_name>
+            </country>
+            <postal_code>
+                <long_name>M11 3FF</long_name>
+                <short_name>M11 3FF</short_name>
+            </postal_code>
+            <formatted_address>Etihad Campus, Rowsley St, Manchester M11 3FF, UK</formatted_address>
+            <location>
+                <lat>53.4844994</lat>
+                <lng>-2.2027344</lng>
+            </location>
+            <location_type>ROOFTOP</location_type>
+        </coordinates>
+    </team>
+    <team>
+        <Name>Patrick</Name>
+        <Location>Swansea City Fc, uk</Location>
+        <Captain>gf</Captain>
+        <Nickname>sdh</Nickname>
+        <coordinates>
+            <postal_town>
+                <long_name>Swansea</long_name>
+                <short_name>Swansea</short_name>
+            </postal_town>
+            <locality>
+                <long_name>Plasmarl</long_name>
+                <short_name>Plasmarl</short_name>
+            </locality>
+            <administrative_area_level_2>
+                <long_name>Swansea</long_name>
+                <short_name>Swansea</short_name>
+            </administrative_area_level_2>
+            <administrative_area_level_1>
+                <long_name>Wales</long_name>
+                <short_name>Wales</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>United Kingdom</long_name>
+                <short_name>GB</short_name>
+            </country>
+            <postal_code>
+                <long_name>SA1 2FA</long_name>
+                <short_name>SA1 2FA</short_name>
+            </postal_code>
+            <formatted_address>Plasmarl, Swansea SA1 2FA, UK</formatted_address>
+            <location>
+                <lat>51.6427499</lat>
+                <lng>-3.9345855</lng>
+            </location>
+            <location_type>GEOMETRIC_CENTER</location_type>
+        </coordinates>
+    </team>
+    <team>
+        <Name>pATRICK</Name>
+        <Location>lIVERPOOL fC, uK</Location>
+        <Captain></Captain>
+        <Nickname></Nickname>
+        <coordinates>
+            <route>
+                <long_name>Anfield Road</long_name>
+                <short_name>Anfield Rd</short_name>
+            </route>
+            <postal_town>
+                <long_name>Liverpool</long_name>
+                <short_name>Liverpool</short_name>
+            </postal_town>
+            <administrative_area_level_2>
+                <long_name>Merseyside</long_name>
+                <short_name>Merseyside</short_name>
+            </administrative_area_level_2>
+            <administrative_area_level_1>
+                <long_name>England</long_name>
+                <short_name>England</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>United Kingdom</long_name>
+                <short_name>GB</short_name>
+            </country>
+            <postal_code>
+                <long_name>L4 0TH</long_name>
+                <short_name>L4 0TH</short_name>
+            </postal_code>
+            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+            <location>
+                <lat>53.42999039999999</lat>
+                <lng>-2.9616719</lng>
+            </location>
+            <location_type>GEOMETRIC_CENTER</location_type>
+        </coordinates>
+    </team>
+    <team>
         <Name>Patricck</Name>
         <Location>Liverpool FC, UK</Location>
         <Captain>Philip Countinho</Captain>

@@ -28,21 +28,21 @@
 					</tr>
 					<xsl:for-each select="myTeams/team">
 							<tr>
-								<td>
+								<td id="{position()}"> 
 									<xsl:value-of select="Name"/>
 								</td>
-								<td>
+								<td id="{position()}">
 									<xsl:value-of select="Location"/>
 								</td>
-								<td>
+								<td id="{position()}">
 									<xsl:value-of select="Captain"/>
 								</td>
-								<td>
+								<td id="{position()}">
 									<xsl:value-of select="Nickname"/>
 								</td>
 								<td width="50" align="center">
    							<input name="Delete"   Type="button"   value="Delete" >
-      					<xsl:attribute name="onclick">javascript:myDeleteFunction('<xsl:value-of select="Delete" />')</xsl:attribute>
+      					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
    							</input>
 							</td>
 							</tr>
