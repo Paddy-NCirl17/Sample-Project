@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 	<xsl:template match="/">
-		<html>
-			<head>
-				<style>
-				  table {
-				    border-collapse: collapse;
-				  }
-				  td, th {
-				    border: 1px solid #999;
-				    padding: 0.5rem;
-				    text-align: left;
-				  }
-				  th {
-				    font-weight: bold;
-				  }
-			  </style>
-			</head>
-			<body>
 				<table id = "myTable">
 					<tr>
 						<th>Name</th>
@@ -41,14 +24,12 @@
 									<xsl:value-of select="Nickname"/>
 								</td>
 								<td width="50" align="center">
-   							<input name="Delete"   Type="button"   value="Delete" >
+   							<input name="Delete"   Type="image"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fKHCFVrE95Z-3y8bVZ6KB-3I7Xvzy3MkedTp0FOd_3peBY7zQQ" height ="20" width ="20" text-alignment ="center">
       					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
    							</input>
 							</td>
 							</tr>
 					</xsl:for-each>
 				</table>
-			</body>
-		</html>
 	</xsl:template>
 </xsl:stylesheet>
