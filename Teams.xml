@@ -1,6 +1,46 @@
 <?xml version='1.0'?>
 <myTeams>
     <team>
+        <Name>Paul</Name>
+        <Location>Sunderland, UK</Location>
+        <Captain>Dean</Captain>
+        <Nickname>Mulrooney</Nickname>
+        <coordinates>
+            <administrative_area_level_3>
+                <long_name>Sunderland District</long_name>
+                <short_name>Sunderland District</short_name>
+            </administrative_area_level_3>
+            <administrative_area_level_2>
+                <long_name>Tyne and Wear</long_name>
+                <short_name>Tyne and Wear</short_name>
+            </administrative_area_level_2>
+            <administrative_area_level_1>
+                <long_name>England</long_name>
+                <short_name>England</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>United Kingdom</long_name>
+                <short_name>GB</short_name>
+            </country>
+            <formatted_address>Sunderland District, UK</formatted_address>
+            <location>
+                <lat>54.8861515</lat>
+                <lng>-1.4785737</lng>
+            </location>
+            <location_type>APPROXIMATE</location_type>
+            <location_bounds>
+                <northeast>
+                    <lat>54.9441711</lat>
+                    <lng>-1.3456649</lng>
+                </northeast>
+                <southwest>
+                    <lat>54.7990491</lat>
+                    <lng>-1.5688793</lng>
+                </southwest>
+            </location_bounds>
+        </coordinates>
+    </team>
+    <team>
         <Name>Patrick</Name>
         <Location>Manchester City FC, UK</Location>
         <Captain>Patrick</Captain>
