@@ -111,7 +111,7 @@
            });
           marker.infowindow = infowindow;
           marker.addListener('mouseover', function() {
-                      infowindow.open(map,this);        //open info Window    
+                    return this.infowindow.open(map,this);        //open info Window    
         });
           marker.addListener('mouseout', function() {
                       infowindow.close();        //close info Window      

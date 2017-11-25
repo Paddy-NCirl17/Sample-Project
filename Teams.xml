@@ -42,6 +42,86 @@
     </team>
     <team>
         <Name>Patrick</Name>
+        <Location>Leicester City FC, UK</Location>
+        <Captain>Patrick</Captain>
+        <Nickname>PAtrick</Nickname>
+        <coordinates>
+            <premise>
+                <long_name>King Power Stadium</long_name>
+                <short_name>King Power Stadium</short_name>
+            </premise>
+            <route>
+                <long_name>Filbert Way</long_name>
+                <short_name>Filbert Way</short_name>
+            </route>
+            <postal_town>
+                <long_name>Leicester</long_name>
+                <short_name>Leicester</short_name>
+            </postal_town>
+            <administrative_area_level_2>
+                <long_name>Leicester</long_name>
+                <short_name>Leicester</short_name>
+            </administrative_area_level_2>
+            <administrative_area_level_1>
+                <long_name>England</long_name>
+                <short_name>England</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>United Kingdom</long_name>
+                <short_name>GB</short_name>
+            </country>
+            <postal_code>
+                <long_name>LE2 7FL</long_name>
+                <short_name>LE2 7FL</short_name>
+            </postal_code>
+            <formatted_address>King Power Stadium, Filbert Way, Leicester LE2 7FL, UK</formatted_address>
+            <location>
+                <lat>52.621015</lat>
+                <lng>-1.141673</lng>
+            </location>
+            <location_type>ROOFTOP</location_type>
+        </coordinates>
+    </team>
+    <team>
+        <Name>Manchester United, UK</Name>
+        <Location>Liverpool Fc, UK</Location>
+        <Captain>Patrick</Captain>
+        <Nickname>PAddy</Nickname>
+        <coordinates>
+            <route>
+                <long_name>Anfield Road</long_name>
+                <short_name>Anfield Rd</short_name>
+            </route>
+            <postal_town>
+                <long_name>Liverpool</long_name>
+                <short_name>Liverpool</short_name>
+            </postal_town>
+            <administrative_area_level_2>
+                <long_name>Merseyside</long_name>
+                <short_name>Merseyside</short_name>
+            </administrative_area_level_2>
+            <administrative_area_level_1>
+                <long_name>England</long_name>
+                <short_name>England</short_name>
+            </administrative_area_level_1>
+            <country>
+                <long_name>United Kingdom</long_name>
+                <short_name>GB</short_name>
+            </country>
+            <postal_code>
+                <long_name>L4 0TH</long_name>
+                <short_name>L4 0TH</short_name>
+            </postal_code>
+            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+            <location>
+                <lat>53.42999039999999</lat>
+                <lng>-2.9616719</lng>
+            </location>
+            <location_type>GEOMETRIC_CENTER</location_type>
+        </coordinates>
+    </team>
+    <team>
+        <Name>Patrick</Name>
         <Location>Manchester City FC, UK</Location>
         <Captain>Patrick</Captain>
         <Nickname>Paddy</Nickname>
