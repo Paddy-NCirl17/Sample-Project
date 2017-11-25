@@ -45,7 +45,7 @@ router.get('/get/html', function(req, res) {
   
 });
 router.get('/json/get',function(req,res){
-  res.writeHead(200, { 'Content-Type': 'application/json'});
+  res.writeHead(200, { 'Content-Type': 'application/json'});//reads json and results in JSON.stringfy
   var json = fs.readFileSync('Teams.json','utf8');
   var jsonParsed = JSON.parse(json);
   res.end(JSON.stringify(jsonParsed));
