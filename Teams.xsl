@@ -3,10 +3,11 @@
 	<xsl:template match="/">
 				<table id = "myTable">
 					<tr>
-						<th>Name</th>
-						<th>Location</th>
-						<th>Captain</th>
-						<th>Nickname</th>
+						<!--When a header is clicked, run the sortTable function, with a parameter, 0 for sorting by names, 1 for sorting by country:--> 
+						<th onclick="sortTable(0)">Name</th>
+						<th onclick="sortTable(1)">Location</th>
+						<th onclick="sortTable(2)">Captain</th>
+						<th onclick="sortTable(3)">Nickname</th>
 						<th>Delete</th>
 					</tr>
 					<xsl:for-each select="myTeams/team">
