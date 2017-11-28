@@ -1,5 +1,5 @@
 {
-  "name": "Sample-Project",
+  "name": "wad-simple-demo",
   "version": "1.0.0",
   "description": "demo app to make AJAX requests to load results of XSL transformation and send POST requests to add new information to JSON and XML files",
   "main": "app.js",
@@ -9,8 +9,8 @@
     "express": "^4.14.0",
     "fs": "0.0.1-security",
     "google-geocoder": "^0.2.1",
-    "js2xmlparser": "^2.0.2",
-    "libxslt": "^0.6.3"
+    "libxslt": "^0.6.3",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,8 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Paddy-NCirl17/Sample-Project.git"
+    "url": "git+https://github.com/mikhail-nci/wad-simple-demo.git"
   },
-  "author": "Patrick Moran",
-  "homepage": "https://github.com/Paddy-NCirl17/Sample-Project.git#readme"
+  "author": "Mikhail",
+  "homepage": "https://github.com/mikhail-nci/wad-simple-demo#readme"
 }
