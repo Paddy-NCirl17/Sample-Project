@@ -29,7 +29,7 @@
       					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
    							</input>
 							</td>
-							</tr>
+						</tr>
 					</xsl:for-each>
 				</table>
 	</xsl:template>

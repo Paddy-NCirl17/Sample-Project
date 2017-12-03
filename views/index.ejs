@@ -7,9 +7,16 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
   <style>
+    
+    h1 {
+      color: white;
+      text-align: center;
+    }
+    
     body {
       padding-top: 60px;
       padding-bottom: 60px;
+      background: lightblue url("http://www.mulierchile.com/football-field-wallpaper/football-field-wallpaper-014.jpg") no-repeat fixed center; 
     }
     
     table,
@@ -18,10 +25,10 @@
       border-collapse: collapse;
       border: 1px solid black;
       text-align: center;
+      background-color: #f2f2f2
       }
-   
-
-
+  
+    
     #map {
         height: 200px;
         width: 100%;
@@ -29,8 +36,47 @@
         padding-bottom: 60px;
         background-color: grey;
     }
+    
+    
+    /* search feature styling*/
+      #myInput {
+        background-image: url('/css/searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 1170px;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        }
+    
+    /* Animated submit button styling */
+        #Btn1 {
+          padding: 15px 25px;
+          font-size: 24px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px #999;
+        }
 
+        #Btn1:hover {
+          background-color: #3e8e41
+        }
+
+        #Btn1:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+  
   </style>
+  
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script>
@@ -133,7 +179,28 @@
   }
 </script>
 
-  
+<script>
+  function myFunction() {
+    // Declare variables 
+    var input, filter, table, tr, td, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
   
 </head>
 
@@ -180,6 +247,8 @@
          //console.log(contentString);
         }   
       }
+      
+      
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOtY3B9nrFWLW699A8i6V5IJQ_TKwmgZo&callback=initMap">
@@ -195,6 +264,7 @@
     <div id="map">
     </div>
     <div class="row">
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for location..">
       <div id="results" class="span8">
       </div>
       <div class="span4">
