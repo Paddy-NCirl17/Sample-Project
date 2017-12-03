@@ -8,10 +8,10 @@
 						<th onclick="sortTable(1)">Location</th>
 						<th onclick="sortTable(2)">Captain</th>
 						<th onclick="sortTable(3)">Nickname</th>
-						<th>Delete</th>
+<!-- 						<th>Delete</th> -->
 					</tr>
 					<xsl:for-each select="myTeams/team">
-							<tr>
+							<tr id="{position()}">
 								<td id="{position()}"> 
 									<xsl:value-of select="Name"/>
 								</td>
@@ -24,12 +24,17 @@
 								<td id="{position()}">
 									<xsl:value-of select="Nickname"/>
 								</td>
-								<td width="50" align="center">
+<!-- 								<td width="50" align="center">
    							<input name="Delete"   Type="image"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fKHCFVrE95Z-3y8bVZ6KB-3I7Xvzy3MkedTp0FOd_3peBY7zQQ" height ="20" width ="20" text-alignment ="center">
       					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
    							</input>
+<<<<<<< HEAD
 							</td>
 						</tr>
+=======
+							</td> -->
+							</tr>
+>>>>>>> 8aa3afa6b17d16cc9f1a8be5830a6d2f515a3243
 					</xsl:for-each>
 				</table>
 	</xsl:template>

@@ -8,15 +8,10 @@
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
   <style>
     
-    h1 {
-      color: white;
-      text-align: center;
-    }
     
     body {
       padding-top: 60px;
-      padding-bottom: 60px;
-      background: lightblue url("http://www.mulierchile.com/football-field-wallpaper/football-field-wallpaper-014.jpg") no-repeat fixed center; 
+      padding-bottom: 60px; 
     }
     
     table,
@@ -25,9 +20,12 @@
       border-collapse: collapse;
       border: 1px solid black;
       text-align: center;
-      background-color: #f2f2f2
       }
-  
+    
+    /*Zebra stripped table effect*/
+    tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
     
     #map {
         height: 200px;
@@ -37,6 +35,7 @@
         background-color: grey;
     }
     
+<<<<<<< HEAD
     
     /* search feature styling*/
       #myInput {
@@ -68,6 +67,12 @@
         #Btn1:hover {
           background-color: #3e8e41
         }
+=======
+    .selected {
+      background-color:brown;
+      color: #FFF;
+    }
+>>>>>>> 8aa3afa6b17d16cc9f1a8be5830a6d2f515a3243
 
         #Btn1:active {
           background-color: #3e8e41;
@@ -80,45 +85,48 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script>
-    function load() {
-      $.ajax({
-        url: "/get/html",
-        cache: false,
-        success: function(html) {
-          
-          $("#results").prepend(html);//prepend to the top of the table so marker will take this.
-        }
-      });
-    };
-
-    $(document).ready(function() {
-      load();
-    });
-    function myDeleteFunction(event) {
-      console.log(event.target.parentNode.parentNode.children[1]);
-      document.getElementById("myTable").deleteRow(1);
-      
-   /* function loadXMLDoc() {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-      myDeleteFunction(this);
+      function draw_table() {
+        $("#results").empty();
+        $.getJSONUncached = function(url) {
+          return $.ajax({
+            url: url,
+            type: 'GET',
+            cache: false,
+            success: function(html) {
+            $("#results").append(html);
+            select_row();
             }
+          });
         };
-        xmlhttp.open("GET", "Teams.xml", true);
-        xmlhttp.send();
-    }*/
-
-    function myDeleteFunction(xml) {
-        var x,xmlDoc;
-        xmlDoc = xml.responseXML;
-       x =  xmlDoc.getElementsById("Name")[0];
-       x.parentNode.removeChild(x);
-    }
-      
-  
-      
-    }
+        $.getJSONUncached("/get/html")
+      }
+    
+      function select_row() {
+        $("#myTable tbody tr").click(function() {
+          $(".selected").removeClass("selected");
+          $(this).addClass("selected");
+          var $row = $(this).attr("id");
+          delete_row($row);
+        })
+      };
+    
+      function delete_row(row_val) {
+        $("#delete").click(function() {
+          $.ajax({
+            url: "/post/delete",
+            type: "POST",
+            data: {
+              row: row_val
+            },
+            cache: false,
+            success: setTimeout(draw_table,2000)
+          })
+        })
+      }
+    
+    $(document).ready(function() {
+      draw_table();
+    });
   </script>
   
 <!-- Sort Table by Clicking the Headers -->
@@ -287,6 +295,7 @@
                 <button id = Btn1 type="submit">Submit</button>               
               </div>
             </form>
+                <button id="delete">Delete</button>
           </li>
         </ul>
       </div>
