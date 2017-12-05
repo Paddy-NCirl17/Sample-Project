@@ -40,7 +40,6 @@ router.use(bodyParser.json());
 router.get('/', function(req, res) {
   var json = fs.readFileSync('Teams.json','utf8');
   var jsonParsed = JSON.parse(json);
-  
   res.render('index',jsonParsed);
 });
 
@@ -66,6 +65,7 @@ router.get('/json/get',function(req,res){
   res.writeHead(200, { 'Content-Type': 'application/json'});//reads json and results in JSON.stringfy
   var json = fs.readFileSync('Teams.json','utf8');
   var jsonParsed = JSON.parse(json);
+  console.log(jsonParsed);
   res.end(JSON.stringify(jsonParsed));
 });
 
@@ -98,13 +98,21 @@ router.post('/post/json', function(req, res) {
 
   // Function to read in a JSON file, add to it & convert to XML
   function appendJSON(obj) {
-     console.log(obj);
+    console.log(obj);
     // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
     xmlFileToJs('Teams.xml', function(err, result) {
       if (err) throw (err);
-      result.myTeams.team.push(obj);
-      jsToXmlFile('Teams.xml', result, function(err) {
-        if (err) console.log(err);
+      geo.find(obj.Location, function(err, response) {
+        obj.coordinates = response[1];
+        result.myTeams.team.push(obj);
+        jsToXmlFile('Teams.xml', result, function(err) {
+          if (err) console.log(err);
+        })
+
+        var string = JSON.stringify(result, null, 4);
+        fs.writeFile('Teams.json', string, function(err) {
+          if (err) console.log(err);
+        })
       })
     })
   }
@@ -126,7 +134,12 @@ router.post('/post/delete', function(req, res) {
     xmlFileToJs('Teams.xml', function(err, result) {
       if (err) throw (err);
       result.myTeams.team.splice(obj.row-1,1);
+      console.log(result);
       jsToXmlFile('Teams.xml', result, function(err) {
+        if (err) console.log(err);
+      })
+      var string = JSON.stringify(result, null, 4);
+      fs.writeFile('Teams.json', string, function(err) {
         if (err) console.log(err);
       })
     })

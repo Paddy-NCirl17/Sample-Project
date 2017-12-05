@@ -1,1177 +1,1221 @@
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <myTeams>
-    <team>
-        <Name>Paul</Name>
-        <Location>Sunderland, UK</Location>
-        <Captain>Dean</Captain>
-        <Nickname>Mulrooney</Nickname>
-        <coordinates>
-            <administrative_area_level_3>
-                <long_name>Sunderland District</long_name>
-                <short_name>Sunderland District</short_name>
-            </administrative_area_level_3>
-            <administrative_area_level_2>
-                <long_name>Tyne and Wear</long_name>
-                <short_name>Tyne and Wear</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <formatted_address>Sunderland District, UK</formatted_address>
-            <location>
-                <lat>54.8861515</lat>
-                <lng>-1.4785737</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>54.9441711</lat>
-                    <lng>-1.3456649</lng>
-                </northeast>
-                <southwest>
-                    <lat>54.7990491</lat>
-                    <lng>-1.5688793</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Leicester City FC, UK</Location>
-        <Captain>Patrick</Captain>
-        <Nickname>PAtrick</Nickname>
-        <coordinates>
-            <premise>
-                <long_name>King Power Stadium</long_name>
-                <short_name>King Power Stadium</short_name>
-            </premise>
-            <route>
-                <long_name>Filbert Way</long_name>
-                <short_name>Filbert Way</short_name>
-            </route>
-            <postal_town>
-                <long_name>Leicester</long_name>
-                <short_name>Leicester</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Leicester</long_name>
-                <short_name>Leicester</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>LE2 7FL</long_name>
-                <short_name>LE2 7FL</short_name>
-            </postal_code>
-            <formatted_address>King Power Stadium, Filbert Way, Leicester LE2 7FL, UK</formatted_address>
-            <location>
-                <lat>52.621015</lat>
-                <lng>-1.141673</lng>
-            </location>
-            <location_type>ROOFTOP</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Manchester United, UK</Name>
-        <Location>Liverpool Fc, UK</Location>
-        <Captain>Patrick</Captain>
-        <Nickname>PAddy</Nickname>
-        <coordinates>
-            <route>
-                <long_name>Anfield Road</long_name>
-                <short_name>Anfield Rd</short_name>
-            </route>
-            <postal_town>
-                <long_name>Liverpool</long_name>
-                <short_name>Liverpool</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Merseyside</long_name>
-                <short_name>Merseyside</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>L4 0TH</long_name>
-                <short_name>L4 0TH</short_name>
-            </postal_code>
-            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
-            <location>
-                <lat>53.42999039999999</lat>
-                <lng>-2.9616719</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Manchester City FC, UK</Location>
-        <Captain>Patrick</Captain>
-        <Nickname>Paddy</Nickname>
-        <coordinates>
-            <premise>
-                <long_name>Etihad Campus</long_name>
-                <short_name>Etihad Campus</short_name>
-            </premise>
-            <route>
-                <long_name>Rowsley Street</long_name>
-                <short_name>Rowsley St</short_name>
-            </route>
-            <postal_town>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Greater Manchester</long_name>
-                <short_name>Greater Manchester</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>M11 3FF</long_name>
-                <short_name>M11 3FF</short_name>
-            </postal_code>
-            <formatted_address>Etihad Campus, Rowsley St, Manchester M11 3FF, UK</formatted_address>
-            <location>
-                <lat>53.4844994</lat>
-                <lng>-2.2027344</lng>
-            </location>
-            <location_type>ROOFTOP</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Swansea City Fc, uk</Location>
-        <Captain>gf</Captain>
-        <Nickname>sdh</Nickname>
-        <coordinates>
-            <postal_town>
-                <long_name>Swansea</long_name>
-                <short_name>Swansea</short_name>
-            </postal_town>
-            <locality>
-                <long_name>Plasmarl</long_name>
-                <short_name>Plasmarl</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Swansea</long_name>
-                <short_name>Swansea</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Wales</long_name>
-                <short_name>Wales</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>SA1 2FA</long_name>
-                <short_name>SA1 2FA</short_name>
-            </postal_code>
-            <formatted_address>Plasmarl, Swansea SA1 2FA, UK</formatted_address>
-            <location>
-                <lat>51.6427499</lat>
-                <lng>-3.9345855</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>pATRICK</Name>
-        <Location>lIVERPOOL fC, uK</Location>
-        <Captain></Captain>
-        <Nickname></Nickname>
-        <coordinates>
-            <route>
-                <long_name>Anfield Road</long_name>
-                <short_name>Anfield Rd</short_name>
-            </route>
-            <postal_town>
-                <long_name>Liverpool</long_name>
-                <short_name>Liverpool</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Merseyside</long_name>
-                <short_name>Merseyside</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>L4 0TH</long_name>
-                <short_name>L4 0TH</short_name>
-            </postal_code>
-            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
-            <location>
-                <lat>53.42999039999999</lat>
-                <lng>-2.9616719</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patricck</Name>
-        <Location>Liverpool FC, UK</Location>
-        <Captain>Philip Countinho</Captain>
-        <Nickname>The Reds</Nickname>
-        <coordinates>
-            <route>
-                <long_name>Anfield Road</long_name>
-                <short_name>Anfield Rd</short_name>
-            </route>
-            <postal_town>
-                <long_name>Liverpool</long_name>
-                <short_name>Liverpool</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Merseyside</long_name>
-                <short_name>Merseyside</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>L4 0TH</long_name>
-                <short_name>L4 0TH</short_name>
-            </postal_code>
-            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
-            <location>
-                <lat>53.42999039999999</lat>
-                <lng>-2.9616719</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name></Name>
-        <Location>Manchester United</Location>
-        <Captain></Captain>
-        <Nickname></Nickname>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Hillsborough County</long_name>
-                <short_name>Hillsborough County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, NH, USA</formatted_address>
-            <location>
-                <lat>42.9956397</lat>
-                <lng>-71.4547891</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>43.0514741</lat>
-                    <lng>-71.37540890000001</lng>
-                </northeast>
-                <southwest>
-                    <lat>42.889586</lat>
-                    <lng>-71.5127129</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_3>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </administrative_area_level_3>
-            <administrative_area_level_2>
-                <long_name>Hartford County</long_name>
-                <short_name>Hartford County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, CT, USA</formatted_address>
-            <location>
-                <lat>41.7759301</lat>
-                <lng>-72.52150089999999</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>41.820298</lat>
-                    <lng>-72.4637291</lng>
-                </northeast>
-                <southwest>
-                    <lat>41.7337989</lat>
-                    <lng>-72.5835331</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Coffee County</long_name>
-                <short_name>Coffee County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <postal_code>
-                <long_name>37355</long_name>
-                <short_name>37355</short_name>
-            </postal_code>
-            <formatted_address>Manchester, TN 37355, USA</formatted_address>
-            <location>
-                <lat>35.4817431</lat>
-                <lng>-86.0885993</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>35.5090069</lat>
-                    <lng>-86.0066568</lng>
-                </northeast>
-                <southwest>
-                    <lat>35.4106149</lat>
-                    <lng>-86.13592779999999</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name></Name>
-        <Location>Manchester</Location>
-        <Captain></Captain>
-        <Nickname></Nickname>
-        <coordinates>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <postal_town>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Greater Manchester</long_name>
-                <short_name>Greater Manchester</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <formatted_address>Manchester, UK</formatted_address>
-            <location>
-                <lat>53.4807593</lat>
-                <lng>-2.2426305</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>53.5445879</lat>
-                    <lng>-2.1468288</lng>
-                </northeast>
-                <southwest>
-                    <lat>53.39990299999999</lat>
-                    <lng>-2.3000969</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name></Name>
-        <Location>Manchester</Location>
-        <Captain></Captain>
-        <Nickname></Nickname>
-        <coordinates>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <postal_town>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Greater Manchester</long_name>
-                <short_name>Greater Manchester</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <formatted_address>Manchester, UK</formatted_address>
-            <location>
-                <lat>53.4807593</lat>
-                <lng>-2.2426305</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>53.5445879</lat>
-                    <lng>-2.1468288</lng>
-                </northeast>
-                <southwest>
-                    <lat>53.39990299999999</lat>
-                    <lng>-2.3000969</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Manchester United</Location>
-        <Captain></Captain>
-        <Nickname></Nickname>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Hillsborough County</long_name>
-                <short_name>Hillsborough County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, NH, USA</formatted_address>
-            <location>
-                <lat>42.9956397</lat>
-                <lng>-71.4547891</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>43.0514741</lat>
-                    <lng>-71.37540890000001</lng>
-                </northeast>
-                <southwest>
-                    <lat>42.889586</lat>
-                    <lng>-71.5127129</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_3>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </administrative_area_level_3>
-            <administrative_area_level_2>
-                <long_name>Hartford County</long_name>
-                <short_name>Hartford County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, CT, USA</formatted_address>
-            <location>
-                <lat>41.7759301</lat>
-                <lng>-72.52150089999999</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>41.820298</lat>
-                    <lng>-72.4637291</lng>
-                </northeast>
-                <southwest>
-                    <lat>41.7337989</lat>
-                    <lng>-72.5835331</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Coffee County</long_name>
-                <short_name>Coffee County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <postal_code>
-                <long_name>37355</long_name>
-                <short_name>37355</short_name>
-            </postal_code>
-            <formatted_address>Manchester, TN 37355, USA</formatted_address>
-            <location>
-                <lat>35.4817431</lat>
-                <lng>-86.0885993</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>35.5090069</lat>
-                    <lng>-86.0066568</lng>
-                </northeast>
-                <southwest>
-                    <lat>35.4106149</lat>
-                    <lng>-86.13592779999999</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Keith</Name>
-        <Location>Liverpool FC, UK</Location>
-        <Captain>Philip Countinho</Captain>
-        <Nickname>The Reds</Nickname>
-        <coordinates>
-            <route>
-                <long_name>Anfield Road</long_name>
-                <short_name>Anfield Rd</short_name>
-            </route>
-            <postal_town>
-                <long_name>Liverpool</long_name>
-                <short_name>Liverpool</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Merseyside</long_name>
-                <short_name>Merseyside</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>L4 0TH</long_name>
-                <short_name>L4 0TH</short_name>
-            </postal_code>
-            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
-            <location>
-                <lat>53.42999039999999</lat>
-                <lng>-2.9616719</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Manchester United</Location>
-        <Captain></Captain>
-        <Nickname></Nickname>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Hillsborough County</long_name>
-                <short_name>Hillsborough County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, NH, USA</formatted_address>
-            <location>
-                <lat>42.9956397</lat>
-                <lng>-71.4547891</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>43.0514741</lat>
-                    <lng>-71.37540890000001</lng>
-                </northeast>
-                <southwest>
-                    <lat>42.889586</lat>
-                    <lng>-71.5127129</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_3>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </administrative_area_level_3>
-            <administrative_area_level_2>
-                <long_name>Hartford County</long_name>
-                <short_name>Hartford County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, CT, USA</formatted_address>
-            <location>
-                <lat>41.7759301</lat>
-                <lng>-72.52150089999999</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>41.820298</lat>
-                    <lng>-72.4637291</lng>
-                </northeast>
-                <southwest>
-                    <lat>41.7337989</lat>
-                    <lng>-72.5835331</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Coffee County</long_name>
-                <short_name>Coffee County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <postal_code>
-                <long_name>37355</long_name>
-                <short_name>37355</short_name>
-            </postal_code>
-            <formatted_address>Manchester, TN 37355, USA</formatted_address>
-            <location>
-                <lat>35.4817431</lat>
-                <lng>-86.0885993</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>35.5090069</lat>
-                    <lng>-86.0066568</lng>
-                </northeast>
-                <southwest>
-                    <lat>35.4106149</lat>
-                    <lng>-86.13592779999999</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Newcastle Utd FC, UK</Location>
-        <Captain>HJUGLJH</Captain>
-        <Nickname>flwekhl</Nickname>
-        <coordinates>
-            <premise>
-                <long_name>St James' Park</long_name>
-                <short_name>St James' Park</short_name>
-            </premise>
-            <route>
-                <long_name>Strawberry Place</long_name>
-                <short_name>Strawberry Pl</short_name>
-            </route>
-            <postal_town>
-                <long_name>Newcastle upon Tyne</long_name>
-                <short_name>Newcastle upon Tyne</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Tyne and Wear</long_name>
-                <short_name>Tyne and Wear</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>NE1 4ST</long_name>
-                <short_name>NE1 4ST</short_name>
-            </postal_code>
-            <formatted_address>St James' Park, Strawberry Pl, Newcastle upon Tyne NE1 4ST, UK</formatted_address>
-            <location>
-                <lat>54.9750986</lat>
-                <lng>-1.623124</lng>
-            </location>
-            <location_type>ROOFTOP</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Manchester United, UK</Location>
-        <Captain>Michael Carrick</Captain>
-        <Nickname>Red Devils</Nickname>
-        <coordinates>
-            <route>
-                <long_name>Sir Matt Busby Way</long_name>
-                <short_name>Sir Matt Busby Way</short_name>
-            </route>
-            <locality>
-                <long_name>Old Trafford</long_name>
-                <short_name>Old Trafford</short_name>
-            </locality>
-            <postal_town>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Greater Manchester</long_name>
-                <short_name>Greater Manchester</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>M16 0RA</long_name>
-                <short_name>M16 0RA</short_name>
-            </postal_code>
-            <formatted_address>Sir Matt Busby Way, Old Trafford, Manchester M16 0RA, UK</formatted_address>
-            <location>
-                <lat>53.4636889</lat>
-                <lng>-2.2914568</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-        <coordinates>
-            <street_number>
-                <long_name>26</long_name>
-                <short_name>26</short_name>
-            </street_number>
-            <route>
-                <long_name>Sir Matt Busby Way</long_name>
-                <short_name>Sir Matt Busby Way</short_name>
-            </route>
-            <locality>
-                <long_name>Stretford</long_name>
-                <short_name>Stretford</short_name>
-            </locality>
-            <postal_town>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Greater Manchester</long_name>
-                <short_name>Greater Manchester</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>M16 0RA</long_name>
-                <short_name>M16 0RA</short_name>
-            </postal_code>
-            <formatted_address>26 Sir Matt Busby Way, Stretford, Manchester M16 0RA, UK</formatted_address>
-            <location>
-                <lat>53.4622458</lat>
-                <lng>-2.2888931</lng>
-            </location>
-            <location_type>ROOFTOP</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick</Name>
-        <Location>Manchester United</Location>
-        <Captain>Michael Carrick</Captain>
-        <Nickname>Red Devils</Nickname>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Hillsborough County</long_name>
-                <short_name>Hillsborough County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>New Hampshire</long_name>
-                <short_name>NH</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, NH, USA</formatted_address>
-            <location>
-                <lat>42.9956397</lat>
-                <lng>-71.4547891</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>43.0514741</lat>
-                    <lng>-71.37540890000001</lng>
-                </northeast>
-                <southwest>
-                    <lat>42.889586</lat>
-                    <lng>-71.5127129</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_3>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </administrative_area_level_3>
-            <administrative_area_level_2>
-                <long_name>Hartford County</long_name>
-                <short_name>Hartford County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Connecticut</long_name>
-                <short_name>CT</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <formatted_address>Manchester, CT, USA</formatted_address>
-            <location>
-                <lat>41.7759301</lat>
-                <lng>-72.52150089999999</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>41.820298</lat>
-                    <lng>-72.4637291</lng>
-                </northeast>
-                <southwest>
-                    <lat>41.7337989</lat>
-                    <lng>-72.5835331</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-        <coordinates>
-            <city>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </city>
-            <province_state>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </province_state>
-            <locality>
-                <long_name>Manchester</long_name>
-                <short_name>Manchester</short_name>
-            </locality>
-            <administrative_area_level_2>
-                <long_name>Coffee County</long_name>
-                <short_name>Coffee County</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>Tennessee</long_name>
-                <short_name>TN</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United States</long_name>
-                <short_name>US</short_name>
-            </country>
-            <postal_code>
-                <long_name>37355</long_name>
-                <short_name>37355</short_name>
-            </postal_code>
-            <formatted_address>Manchester, TN 37355, USA</formatted_address>
-            <location>
-                <lat>35.4817431</lat>
-                <lng>-86.0885993</lng>
-            </location>
-            <location_type>APPROXIMATE</location_type>
-            <location_bounds>
-                <northeast>
-                    <lat>35.5090069</lat>
-                    <lng>-86.0066568</lng>
-                </northeast>
-                <southwest>
-                    <lat>35.4106149</lat>
-                    <lng>-86.13592779999999</lng>
-                </southwest>
-            </location_bounds>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Keith</Name>
-        <Location>Liverpool FC, UK</Location>
-        <Captain>Philip Countinho</Captain>
-        <Nickname>The Reds</Nickname>
-        <coordinates>
-            <route>
-                <long_name>Anfield Road</long_name>
-                <short_name>Anfield Rd</short_name>
-            </route>
-            <postal_town>
-                <long_name>Liverpool</long_name>
-                <short_name>Liverpool</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Merseyside</long_name>
-                <short_name>Merseyside</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>L4 0TH</long_name>
-                <short_name>L4 0TH</short_name>
-            </postal_code>
-            <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
-            <location>
-                <lat>53.42999039999999</lat>
-                <lng>-2.9616719</lng>
-            </location>
-            <location_type>GEOMETRIC_CENTER</location_type>
-        </coordinates>
-    </team>
-    <team>
-        <Name>Patrick Moran</Name>
-        <Location>Chelsea FC, UK</Location>
-        <Captain>Patrick Moran</Captain>
-        <Nickname>Paddy</Nickname>
-        <coordinates>
-            <establishment>
-                <long_name>Stamford Bridge</long_name>
-                <short_name>Stamford Bridge</short_name>
-            </establishment>
-            <street_number>
-                <long_name>367B</long_name>
-                <short_name>367B</short_name>
-            </street_number>
-            <route>
-                <long_name>Fulham Road</long_name>
-                <short_name>Fulham Rd</short_name>
-            </route>
-            <neighborhood>
-                <long_name>Fulham</long_name>
-                <short_name>Fulham</short_name>
-            </neighborhood>
-            <postal_town>
-                <long_name>London</long_name>
-                <short_name>London</short_name>
-            </postal_town>
-            <administrative_area_level_2>
-                <long_name>Greater London</long_name>
-                <short_name>Greater London</short_name>
-            </administrative_area_level_2>
-            <administrative_area_level_1>
-                <long_name>England</long_name>
-                <short_name>England</short_name>
-            </administrative_area_level_1>
-            <country>
-                <long_name>United Kingdom</long_name>
-                <short_name>GB</short_name>
-            </country>
-            <postal_code>
-                <long_name>SW6 1HS</long_name>
-                <short_name>SW6 1HS</short_name>
-            </postal_code>
-            <formatted_address>Stamford Bridge, 367B Fulham Rd, Fulham, London SW6 1HS, UK</formatted_address>
-            <location>
-                <lat>51.4814111</lat>
-                <lng>-0.1913945</lng>
-            </location>
-            <location_type>ROOFTOP</location_type>
-        </coordinates>
-    </team>
+  <team>
+    <Name>Manchester United, UK</Name>
+    <Location>Liverpool Fc, UK</Location>
+    <Captain>Patrick</Captain>
+    <Nickname>PAddy</Nickname>
+    <coordinates>
+      <route>
+        <long_name>Anfield Road</long_name>
+        <short_name>Anfield Rd</short_name>
+      </route>
+      <postal_town>
+        <long_name>Liverpool</long_name>
+        <short_name>Liverpool</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Merseyside</long_name>
+        <short_name>Merseyside</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>L4 0TH</long_name>
+        <short_name>L4 0TH</short_name>
+      </postal_code>
+      <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+      <location>
+        <lat>53.42999039999999</lat>
+        <lng>-2.9616719</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Manchester City FC, UK</Location>
+    <Captain>Patrick</Captain>
+    <Nickname>Paddy</Nickname>
+    <coordinates>
+      <premise>
+        <long_name>Etihad Campus</long_name>
+        <short_name>Etihad Campus</short_name>
+      </premise>
+      <route>
+        <long_name>Rowsley Street</long_name>
+        <short_name>Rowsley St</short_name>
+      </route>
+      <postal_town>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater Manchester</long_name>
+        <short_name>Greater Manchester</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>M11 3FF</long_name>
+        <short_name>M11 3FF</short_name>
+      </postal_code>
+      <formatted_address>Etihad Campus, Rowsley St, Manchester M11 3FF, UK</formatted_address>
+      <location>
+        <lat>53.4844994</lat>
+        <lng>-2.2027344</lng>
+      </location>
+      <location_type>ROOFTOP</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Swansea City Fc, uk</Location>
+    <Captain>gf</Captain>
+    <Nickname>sdh</Nickname>
+    <coordinates>
+      <postal_town>
+        <long_name>Swansea</long_name>
+        <short_name>Swansea</short_name>
+      </postal_town>
+      <locality>
+        <long_name>Plasmarl</long_name>
+        <short_name>Plasmarl</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Swansea</long_name>
+        <short_name>Swansea</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Wales</long_name>
+        <short_name>Wales</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>SA1 2FA</long_name>
+        <short_name>SA1 2FA</short_name>
+      </postal_code>
+      <formatted_address>Plasmarl, Swansea SA1 2FA, UK</formatted_address>
+      <location>
+        <lat>51.6427499</lat>
+        <lng>-3.9345855</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>pATRICK</Name>
+    <Location>lIVERPOOL fC, uK</Location>
+    <Captain/>
+    <Nickname/>
+    <coordinates>
+      <route>
+        <long_name>Anfield Road</long_name>
+        <short_name>Anfield Rd</short_name>
+      </route>
+      <postal_town>
+        <long_name>Liverpool</long_name>
+        <short_name>Liverpool</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Merseyside</long_name>
+        <short_name>Merseyside</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>L4 0TH</long_name>
+        <short_name>L4 0TH</short_name>
+      </postal_code>
+      <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+      <location>
+        <lat>53.42999039999999</lat>
+        <lng>-2.9616719</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patricck</Name>
+    <Location>Liverpool FC, UK</Location>
+    <Captain>Philip Countinho</Captain>
+    <Nickname>The Reds</Nickname>
+    <coordinates>
+      <route>
+        <long_name>Anfield Road</long_name>
+        <short_name>Anfield Rd</short_name>
+      </route>
+      <postal_town>
+        <long_name>Liverpool</long_name>
+        <short_name>Liverpool</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Merseyside</long_name>
+        <short_name>Merseyside</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>L4 0TH</long_name>
+        <short_name>L4 0TH</short_name>
+      </postal_code>
+      <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+      <location>
+        <lat>53.42999039999999</lat>
+        <lng>-2.9616719</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name/>
+    <Location>Manchester United</Location>
+    <Captain/>
+    <Nickname/>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Hillsborough County</long_name>
+        <short_name>Hillsborough County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, NH, USA</formatted_address>
+      <location>
+        <lat>42.9956397</lat>
+        <lng>-71.4547891</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>43.0514741</lat>
+          <lng>-71.37540890000001</lng>
+        </northeast>
+        <southwest>
+          <lat>42.889586</lat>
+          <lng>-71.5127129</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_3>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </administrative_area_level_3>
+      <administrative_area_level_2>
+        <long_name>Hartford County</long_name>
+        <short_name>Hartford County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, CT, USA</formatted_address>
+      <location>
+        <lat>41.7759301</lat>
+        <lng>-72.52150089999999</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>41.820298</lat>
+          <lng>-72.4637291</lng>
+        </northeast>
+        <southwest>
+          <lat>41.7337989</lat>
+          <lng>-72.5835331</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Coffee County</long_name>
+        <short_name>Coffee County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <postal_code>
+        <long_name>37355</long_name>
+        <short_name>37355</short_name>
+      </postal_code>
+      <formatted_address>Manchester, TN 37355, USA</formatted_address>
+      <location>
+        <lat>35.4817431</lat>
+        <lng>-86.0885993</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>35.5090069</lat>
+          <lng>-86.0066568</lng>
+        </northeast>
+        <southwest>
+          <lat>35.4106149</lat>
+          <lng>-86.13592779999999</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name/>
+    <Location>Manchester</Location>
+    <Captain/>
+    <Nickname/>
+    <coordinates>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <postal_town>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater Manchester</long_name>
+        <short_name>Greater Manchester</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <formatted_address>Manchester, UK</formatted_address>
+      <location>
+        <lat>53.4807593</lat>
+        <lng>-2.2426305</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>53.5445879</lat>
+          <lng>-2.1468288</lng>
+        </northeast>
+        <southwest>
+          <lat>53.39990299999999</lat>
+          <lng>-2.3000969</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name/>
+    <Location>Manchester</Location>
+    <Captain/>
+    <Nickname/>
+    <coordinates>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <postal_town>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater Manchester</long_name>
+        <short_name>Greater Manchester</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <formatted_address>Manchester, UK</formatted_address>
+      <location>
+        <lat>53.4807593</lat>
+        <lng>-2.2426305</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>53.5445879</lat>
+          <lng>-2.1468288</lng>
+        </northeast>
+        <southwest>
+          <lat>53.39990299999999</lat>
+          <lng>-2.3000969</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Manchester United</Location>
+    <Captain/>
+    <Nickname/>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Hillsborough County</long_name>
+        <short_name>Hillsborough County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, NH, USA</formatted_address>
+      <location>
+        <lat>42.9956397</lat>
+        <lng>-71.4547891</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>43.0514741</lat>
+          <lng>-71.37540890000001</lng>
+        </northeast>
+        <southwest>
+          <lat>42.889586</lat>
+          <lng>-71.5127129</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_3>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </administrative_area_level_3>
+      <administrative_area_level_2>
+        <long_name>Hartford County</long_name>
+        <short_name>Hartford County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, CT, USA</formatted_address>
+      <location>
+        <lat>41.7759301</lat>
+        <lng>-72.52150089999999</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>41.820298</lat>
+          <lng>-72.4637291</lng>
+        </northeast>
+        <southwest>
+          <lat>41.7337989</lat>
+          <lng>-72.5835331</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Coffee County</long_name>
+        <short_name>Coffee County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <postal_code>
+        <long_name>37355</long_name>
+        <short_name>37355</short_name>
+      </postal_code>
+      <formatted_address>Manchester, TN 37355, USA</formatted_address>
+      <location>
+        <lat>35.4817431</lat>
+        <lng>-86.0885993</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>35.5090069</lat>
+          <lng>-86.0066568</lng>
+        </northeast>
+        <southwest>
+          <lat>35.4106149</lat>
+          <lng>-86.13592779999999</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Keith</Name>
+    <Location>Liverpool FC, UK</Location>
+    <Captain>Philip Countinho</Captain>
+    <Nickname>The Reds</Nickname>
+    <coordinates>
+      <route>
+        <long_name>Anfield Road</long_name>
+        <short_name>Anfield Rd</short_name>
+      </route>
+      <postal_town>
+        <long_name>Liverpool</long_name>
+        <short_name>Liverpool</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Merseyside</long_name>
+        <short_name>Merseyside</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>L4 0TH</long_name>
+        <short_name>L4 0TH</short_name>
+      </postal_code>
+      <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+      <location>
+        <lat>53.42999039999999</lat>
+        <lng>-2.9616719</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Manchester United</Location>
+    <Captain/>
+    <Nickname/>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Hillsborough County</long_name>
+        <short_name>Hillsborough County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, NH, USA</formatted_address>
+      <location>
+        <lat>42.9956397</lat>
+        <lng>-71.4547891</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>43.0514741</lat>
+          <lng>-71.37540890000001</lng>
+        </northeast>
+        <southwest>
+          <lat>42.889586</lat>
+          <lng>-71.5127129</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_3>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </administrative_area_level_3>
+      <administrative_area_level_2>
+        <long_name>Hartford County</long_name>
+        <short_name>Hartford County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, CT, USA</formatted_address>
+      <location>
+        <lat>41.7759301</lat>
+        <lng>-72.52150089999999</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>41.820298</lat>
+          <lng>-72.4637291</lng>
+        </northeast>
+        <southwest>
+          <lat>41.7337989</lat>
+          <lng>-72.5835331</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Coffee County</long_name>
+        <short_name>Coffee County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <postal_code>
+        <long_name>37355</long_name>
+        <short_name>37355</short_name>
+      </postal_code>
+      <formatted_address>Manchester, TN 37355, USA</formatted_address>
+      <location>
+        <lat>35.4817431</lat>
+        <lng>-86.0885993</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>35.5090069</lat>
+          <lng>-86.0066568</lng>
+        </northeast>
+        <southwest>
+          <lat>35.4106149</lat>
+          <lng>-86.13592779999999</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Newcastle Utd FC, UK</Location>
+    <Captain>HJUGLJH</Captain>
+    <Nickname>flwekhl</Nickname>
+    <coordinates>
+      <premise>
+        <long_name>St James' Park</long_name>
+        <short_name>St James' Park</short_name>
+      </premise>
+      <route>
+        <long_name>Strawberry Place</long_name>
+        <short_name>Strawberry Pl</short_name>
+      </route>
+      <postal_town>
+        <long_name>Newcastle upon Tyne</long_name>
+        <short_name>Newcastle upon Tyne</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Tyne and Wear</long_name>
+        <short_name>Tyne and Wear</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>NE1 4ST</long_name>
+        <short_name>NE1 4ST</short_name>
+      </postal_code>
+      <formatted_address>St James' Park, Strawberry Pl, Newcastle upon Tyne NE1 4ST, UK</formatted_address>
+      <location>
+        <lat>54.9750986</lat>
+        <lng>-1.623124</lng>
+      </location>
+      <location_type>ROOFTOP</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Manchester United, UK</Location>
+    <Captain>Michael Carrick</Captain>
+    <Nickname>Red Devils</Nickname>
+    <coordinates>
+      <route>
+        <long_name>Sir Matt Busby Way</long_name>
+        <short_name>Sir Matt Busby Way</short_name>
+      </route>
+      <locality>
+        <long_name>Old Trafford</long_name>
+        <short_name>Old Trafford</short_name>
+      </locality>
+      <postal_town>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater Manchester</long_name>
+        <short_name>Greater Manchester</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>M16 0RA</long_name>
+        <short_name>M16 0RA</short_name>
+      </postal_code>
+      <formatted_address>Sir Matt Busby Way, Old Trafford, Manchester M16 0RA, UK</formatted_address>
+      <location>
+        <lat>53.4636889</lat>
+        <lng>-2.2914568</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+    <coordinates>
+      <street_number>
+        <long_name>26</long_name>
+        <short_name>26</short_name>
+      </street_number>
+      <route>
+        <long_name>Sir Matt Busby Way</long_name>
+        <short_name>Sir Matt Busby Way</short_name>
+      </route>
+      <locality>
+        <long_name>Stretford</long_name>
+        <short_name>Stretford</short_name>
+      </locality>
+      <postal_town>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater Manchester</long_name>
+        <short_name>Greater Manchester</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>M16 0RA</long_name>
+        <short_name>M16 0RA</short_name>
+      </postal_code>
+      <formatted_address>26 Sir Matt Busby Way, Stretford, Manchester M16 0RA, UK</formatted_address>
+      <location>
+        <lat>53.4622458</lat>
+        <lng>-2.2888931</lng>
+      </location>
+      <location_type>ROOFTOP</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick</Name>
+    <Location>Manchester United</Location>
+    <Captain>Michael Carrick</Captain>
+    <Nickname>Red Devils</Nickname>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Hillsborough County</long_name>
+        <short_name>Hillsborough County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>New Hampshire</long_name>
+        <short_name>NH</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, NH, USA</formatted_address>
+      <location>
+        <lat>42.9956397</lat>
+        <lng>-71.4547891</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>43.0514741</lat>
+          <lng>-71.37540890000001</lng>
+        </northeast>
+        <southwest>
+          <lat>42.889586</lat>
+          <lng>-71.5127129</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_3>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </administrative_area_level_3>
+      <administrative_area_level_2>
+        <long_name>Hartford County</long_name>
+        <short_name>Hartford County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Connecticut</long_name>
+        <short_name>CT</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <formatted_address>Manchester, CT, USA</formatted_address>
+      <location>
+        <lat>41.7759301</lat>
+        <lng>-72.52150089999999</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>41.820298</lat>
+          <lng>-72.4637291</lng>
+        </northeast>
+        <southwest>
+          <lat>41.7337989</lat>
+          <lng>-72.5835331</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+    <coordinates>
+      <city>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </city>
+      <province_state>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </province_state>
+      <locality>
+        <long_name>Manchester</long_name>
+        <short_name>Manchester</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Coffee County</long_name>
+        <short_name>Coffee County</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>Tennessee</long_name>
+        <short_name>TN</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United States</long_name>
+        <short_name>US</short_name>
+      </country>
+      <postal_code>
+        <long_name>37355</long_name>
+        <short_name>37355</short_name>
+      </postal_code>
+      <formatted_address>Manchester, TN 37355, USA</formatted_address>
+      <location>
+        <lat>35.4817431</lat>
+        <lng>-86.0885993</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>35.5090069</lat>
+          <lng>-86.0066568</lng>
+        </northeast>
+        <southwest>
+          <lat>35.4106149</lat>
+          <lng>-86.13592779999999</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Keith</Name>
+    <Location>Liverpool FC, UK</Location>
+    <Captain>Philip Countinho</Captain>
+    <Nickname>The Reds</Nickname>
+    <coordinates>
+      <route>
+        <long_name>Anfield Road</long_name>
+        <short_name>Anfield Rd</short_name>
+      </route>
+      <postal_town>
+        <long_name>Liverpool</long_name>
+        <short_name>Liverpool</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Merseyside</long_name>
+        <short_name>Merseyside</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>L4 0TH</long_name>
+        <short_name>L4 0TH</short_name>
+      </postal_code>
+      <formatted_address>Anfield Rd, Liverpool L4 0TH, UK</formatted_address>
+      <location>
+        <lat>53.42999039999999</lat>
+        <lng>-2.9616719</lng>
+      </location>
+      <location_type>GEOMETRIC_CENTER</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Patrick Moran</Name>
+    <Location>Chelsea FC, UK</Location>
+    <Captain>Patrick Moran</Captain>
+    <Nickname>Paddy</Nickname>
+    <coordinates>
+      <establishment>
+        <long_name>Stamford Bridge</long_name>
+        <short_name>Stamford Bridge</short_name>
+      </establishment>
+      <street_number>
+        <long_name>367B</long_name>
+        <short_name>367B</short_name>
+      </street_number>
+      <route>
+        <long_name>Fulham Road</long_name>
+        <short_name>Fulham Rd</short_name>
+      </route>
+      <neighborhood>
+        <long_name>Fulham</long_name>
+        <short_name>Fulham</short_name>
+      </neighborhood>
+      <postal_town>
+        <long_name>London</long_name>
+        <short_name>London</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater London</long_name>
+        <short_name>Greater London</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>SW6 1HS</long_name>
+        <short_name>SW6 1HS</short_name>
+      </postal_code>
+      <formatted_address>Stamford Bridge, 367B Fulham Rd, Fulham, London SW6 1HS, UK</formatted_address>
+      <location>
+        <lat>51.4814111</lat>
+        <lng>-0.1913945</lng>
+      </location>
+      <location_type>ROOFTOP</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>Joe</Name>
+    <Location>Liverpool, UK</Location>
+    <Captain>Henderson</Captain>
+    <Nickname>Reds</Nickname>
+    <coordinates>
+      <establishment>
+        <long_name>Stamford Bridge</long_name>
+        <short_name>Stamford Bridge</short_name>
+      </establishment>
+      <street_number>
+        <long_name>367B</long_name>
+        <short_name>367B</short_name>
+      </street_number>
+      <route>
+        <long_name>Fulham Road</long_name>
+        <short_name>Fulham Rd</short_name>
+      </route>
+      <neighborhood>
+        <long_name>Fulham</long_name>
+        <short_name>Fulham</short_name>
+      </neighborhood>
+      <postal_town>
+        <long_name>London</long_name>
+        <short_name>London</short_name>
+      </postal_town>
+      <administrative_area_level_2>
+        <long_name>Greater London</long_name>
+        <short_name>Greater London</short_name>
+      </administrative_area_level_2>
+      <administrative_area_level_1>
+        <long_name>England</long_name>
+        <short_name>England</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>United Kingdom</long_name>
+        <short_name>GB</short_name>
+      </country>
+      <postal_code>
+        <long_name>SW6 1HS</long_name>
+        <short_name>SW6 1HS</short_name>
+      </postal_code>
+      <formatted_address>Stamford Bridge, 367B Fulham Rd, Fulham, London SW6 1HS, UK</formatted_address>
+      <location>
+        <lat>51.4814111</lat>
+        <lng>-0.1913945</lng>
+      </location>
+      <location_type>ROOFTOP</location_type>
+    </coordinates>
+  </team>
+  <team>
+    <Name>1</Name>
+    <Location>MOSCOW</Location>
+    <Captain>1</Captain>
+    <Nickname>1</Nickname>
+    <coordinates>
+      <city/>
+      <province_state/>
+      <locality>
+        <long_name>Moscow</long_name>
+        <short_name>Moscow</short_name>
+      </locality>
+      <administrative_area_level_2>
+        <long_name>Moskva</long_name>
+        <short_name>Moskva</short_name>
+      </administrative_area_level_2>
+      <country>
+        <long_name>Russia</long_name>
+        <short_name>RU</short_name>
+      </country>
+      <formatted_address>Moscow, Russia</formatted_address>
+      <location>
+        <lat>55.755826</lat>
+        <lng>37.6172999</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>56.009657</lat>
+          <lng>37.9456611</lng>
+        </northeast>
+        <southwest>
+          <lat>55.48992699999999</lat>
+          <lng>37.3193289</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
+  <team>
+    <Name>F</Name>
+    <Location>Berlin</Location>
+    <Captain>G</Captain>
+    <Nickname>G</Nickname>
+    <coordinates>
+      <city/>
+      <province_state/>
+      <locality>
+        <long_name>Berlin</long_name>
+        <short_name>Berlin</short_name>
+      </locality>
+      <administrative_area_level_1>
+        <long_name>Berlin</long_name>
+        <short_name>Berlin</short_name>
+      </administrative_area_level_1>
+      <country>
+        <long_name>Germany</long_name>
+        <short_name>DE</short_name>
+      </country>
+      <formatted_address>Berlin, Germany</formatted_address>
+      <location>
+        <lat>52.52000659999999</lat>
+        <lng>13.404954</lng>
+      </location>
+      <location_type>APPROXIMATE</location_type>
+      <location_bounds>
+        <northeast>
+          <lat>52.6754542</lat>
+          <lng>13.7611175</lng>
+        </northeast>
+        <southwest>
+          <lat>52.338234</lat>
+          <lng>13.088346</lng>
+        </southwest>
+      </location_bounds>
+    </coordinates>
+  </team>
 </myTeams>
