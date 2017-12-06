@@ -9,6 +9,7 @@
     "express": "^4.14.0",
     "fs": "0.0.1-security",
     "google-geocoder": "^0.2.1",
+    "js2xmlparser": "^3.0.0",
     "libxslt": "^0.6.3",
     "xml2js": "^0.4.19"
   },

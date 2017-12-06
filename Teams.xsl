@@ -28,8 +28,13 @@
    							<input name="Delete"   Type="image"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fKHCFVrE95Z-3y8bVZ6KB-3I7Xvzy3MkedTp0FOd_3peBY7zQQ" height ="20" width ="20" text-alignment ="center">
       					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
    							</input>
+<<<<<<< HEAD
+							</td>
+						</tr>
+=======
 							</td> -->
 							</tr>
+>>>>>>> 8aa3afa6b17d16cc9f1a8be5830a6d2f515a3243
 					</xsl:for-each>
 				</table>
 	</xsl:template>
