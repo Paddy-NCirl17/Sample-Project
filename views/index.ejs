@@ -6,10 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
-  <style>
+ <style>
+    
+    h1 {
+     color: white;
+     text-align: center;
+    }
+    #info {
+     color: black;
+     text-align: center;
+    }
     body {
       padding-top: 60px;
       padding-bottom: 60px;
+      background: lightblue url("https://www.mulierchile.com/football-field-wallpaper/football-field-wallpaper-014.jpg") no-repeat fixed center;
     }
     
     table,
@@ -18,10 +28,10 @@
       border-collapse: collapse;
       border: 1px solid black;
       text-align: center;
+      background-color: #f2f2f2
       }
-   
-
-
+    
+    
     #map {
         height: 200px;
         width: 100%;
@@ -29,91 +39,226 @@
         padding-bottom: 60px;
         background-color: grey;
     }
-
+   
+    /* search feature styling*/
+      #myInput {
+        background-image: url('/css/searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 37%;
+        font-size: 16px;
+        padding: 5px 20px 5px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+        margin-left: 20px;
+        margin-top: 12px;
+        }
+    
+    /* Animated submit button styling */
+        #Btn1, #delete{
+          padding: 10px 20px;
+          font-size: 16px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px #999;
+        }
+        #Btn1:hover {
+          background-color: #3e8e41
+        }
+        #delete:hover {
+          background-color: #3e8e41
+        }
+   
+   
+        .selected {
+          background-color:brown;
+          color: #FFF;
+        }
+   
+         #Btn1:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+              }
+        #delete:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
   </style>
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
-  <script>
-    function load() {
-      $.ajax({
-        url: "/get/html",
-        cache: false,
-        success: function(html) {
-          
-          $("#results").prepend(html);//prepend to the top of the table so marker will take this.
-        }
-      });
-    };
-
-    $(document).ready(function() {
-      load();
-    });
-    function myDeleteFunction(event) {
-      console.log(event.target.parentNode.parentNode.children[1]);
-      document.getElementById("myTable").deleteRow(1);
-      
-   /* function loadXMLDoc() {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-      myDeleteFunction(this);
-            }
-        };
-        xmlhttp.open("GET", "Teams.xml", true);
-        xmlhttp.send();
-    }*/
-
-    function myDeleteFunction(xml) {
-        var x,xmlDoc;
-        xmlDoc = xml.responseXML;
-       x =  xmlDoc.getElementsById("Name")[0];
-       x.parentNode.removeChild(x);
-    }
-      
   
-      
-    }
+  <script>
+   function draw_table() {
+          $("#results").empty();
+           $.getJSONUncached = function(url) {
+            return $.ajax({
+             url: url,
+              type: 'GET',
+               cache: false,
+                success: function(html) {
+               $("#results").append(html);
+              select_row();
+             }
+           });
+         };
+        $.getJSONUncached("/get/html")
+      }
+    
+    function select_row() {
+      $("#myTable tbody tr").click(function() {
+        $(".selected").removeClass("selected");
+        $(this).addClass("selected");
+        var $row = $(this).attr("id");
+        delete_row($row);
+      })
+    };
+    
+      function delete_row(row_val) {
+        $("#delete").click(function() {
+          $.ajax({
+            url: "/post/delete",
+            type: "POST",
+            data: {
+              row: row_val
+            },
+            cache: false,
+            success: setTimeout(draw_table,2000)
+          })
+        })
+      }
+    
+    $(document).ready(function() {
+      draw_table();
+    });
   </script>
+  
+<!-- Sort Table by Clicking the Headers -->
+<script>
+  function sortTable(n) {
+   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("myTable");
+     switching = true;
+      //Set the sorting direction to ascending:
+       dir = "asc";
+        /*Make a loop that will continue until
+         no switching has been done:*/
+          while (switching) {
+           //start by saying: no switching is done:
+           switching = false;
+            rows = table.getElementsByTagName("TR");
+            /*Loop through all table rows (except the
+             first, which contains table headers):*/
+              for (i = 1; i < (rows.length - 1); i++) {
+               //start by saying there should be no switching:
+                shouldSwitch = false;
+                 /*Get the two elements you want to compare,
+                one from current row and one from the next:*/
+                x = rows[i].getElementsByTagName("TD")[n];
+               y = rows[i + 1].getElementsByTagName("TD")[n];
+              /*check if the two rows should switch place,
+             based on the direction, asc or desc:*/
+            if (dir == "asc") {
+           if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+         shouldSwitch = true;
+        break;
+       }
+        } else if (dir == "desc") {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+           break;
+          }
+        }
+      }
+      if (shouldSwitch) {
+       /*If a switch has been marked, make the switch
+        and mark that a switch has been done:*/
+         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true;
+           //Each time a switch is done, increase this count by 1:
+            switchcount++;
+             } else {
+              /*If no switching has been done AND the direction is "asc",
+             set the direction to "desc" and run the while loop again.*/
+            if (switchcount == 0 && dir == "asc") {
+           dir = "desc";
+          switching = true;
+        }
+      }
+    }
+  }
+</script>
+
+<script>
+  function myFunction() {
+   // Declare variables 
+    var input, filter, table, tr, td, i;
+     input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+       table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+         // Loop through all table rows, and hide those who don't match the search query
+          for (i = 0; i < tr.length; i++) {
+           td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+            if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+             tr[i].style.display = "";
+            } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
 </head>
 
 <body>
   
-    <script>
+    <script>//Google API
       function initMap() {
-          var data = <%- JSON.stringify(team) %>;//Take info from Json file to set location.
-          //console.log(data);
-         //var result = {lat: data[0].coordinates[0].location.lat, lng: data[0].coordinates[0].location.lng};
+       var data = <%- JSON.stringify(myTeams.team) %>;//Take info from Json file to set location.
+        console.log(data);
+        var result = {lat: Number(data[0].coordinates[0].location.lat), lng: Number(data[0].coordinates[0].location.lng)};
           //console.log(result);
-          var result = {lat: 52.6369, lng:-1.1398}
+           //var result = {lat: 52.6369, lng:-1.1398}
           var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
-          center: result
-            
-        });
+         zoom: 6,
+        center: result    
+       });
         var markers = [];
-        var contentString; 
-        //Takes coordinates from geocode and loops through each location.
-        for(i = 0; i < data.length; i++){
-          var  marker = new google.maps.Marker({
-            position: {lat: data[i].coordinates[0].location.lat, lng: data[i].coordinates[0].location.lng},
-            animation: google.maps.Animation.DROP,
-                map: map,
-           });
-          
+         var contentString; 
+          //Takes coordinates from geocode and loops through each location.
+           for(i = 0; i < data.length; i++){
+             
+            var  marker = new google.maps.Marker({
+              
+            position: {lat: Number(data[i].coordinates[0].location.lat), lng: Number(data[i].coordinates[0].location.lng)},
+           animation: google.maps.Animation.DROP,
+          map: map,
+         });
+          console.log(i);
          markers.push(marker);
-          
+          //Stackoverflow referenced
          var infowindow = new google.maps.InfoWindow({
-          content: contentString = '<div><h1>'+data[i].Location+'</h1>'+
-            '<p><b>'+"Captain: "+ data[i].Captain +'</p></b>'+
-            '<p><b>'+"Captain: "+ data[i].Name +'</p></b>'+    //contents of Info Windoe
-            '<p><b>'+"Captain: "+ data[i].Nickname+'</p></b></div>'
-           });
-          marker.infowindow = infowindow;
-          marker.addListener('mouseover', function() {
-                    return this.infowindow.open(map,this);        //open info Window    
+          content: contentString = '<div><h1 id="info">'+data[i].Team+'</h1>'+
+           '<p><b>'+"Captain: "+ data[i].Captain +'</p></b>'+
+            '<p><b>'+"Name: "+ data[i].Name +'</p></b>'+    //contents of Info Window
+             '<p><b>'+"Nickname: "+ data[i].Nickname+'</p></b></div>'
+             });
+            marker.infowindow = infowindow;
+           marker.addListener('mouseover', function() {
+          return this.infowindow.open(map,this);        //open info Window    
         });
           marker.addListener('mouseout', function() {
-                      infowindow.close();        //close info Window      
+          infowindow.close();        //close info Window      
         });
          //console.log(contentString);
         }   
@@ -122,39 +267,41 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOtY3B9nrFWLW699A8i6V5IJQ_TKwmgZo&callback=initMap">
     </script>
-  <div class="container">
+    <div class="container">
     <div class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
-      </div>
-    </div>
-    <div class="page-header">
-      <h1>Football Teams</h1>
-    </div>
-    <div id="map">
-    </div>
-    <div class="row">
-      <div id="results" class="span8">
-      </div>
-      <div class="span4">
-        <ul class="nav nav-list well">
-          <li>
+       </div>
+        </div>
+         <div class="page-header">
+          <h1>Football Teams</h1>
+           </div>
+            <div id="map">
+             </div>
+              <div class="row">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a Team ..">
+                 <div id="results" class="span8">
+                </div>
+               <div class="span4">
+              <ul class="nav nav-list well">
+             <li>
             <form enctype='application/json' action="/post/json" method="post">
-              <div class="field">
-                <input type="text" name="Name" placeholder="User">
+           <div class="field">
+          <input type="text" name="Name" placeholder="User">
+         </div>
+        <div class="field">
+       <input type="text" name="Team" required placeholder="Team, Country">
+      </div>
+     <div class="field">
+      <input type="text" name="Captain" placeholder="Captain">
+       </div>
+        <div class="field">
+         <input type="text" name="Nickname" placeholder="Nickname">
+          </div>
+           <div class="field">
+             <button id = "Btn1" type="submit">Submit</button>               
               </div>
-              <div class="field">
-                <input type="text" name="Location" required placeholder="Team, Country">
-              </div>
-              <div class="field">
-                <input type="text" name="Captain" placeholder="Captain">
-              </div>
-              <div class="field">
-                <input type="text" name="Nickname" placeholder="Nickname">
-              </div>
-              <div class="field">
-                <button id = Btn1 type="submit">Submit</button>               
-              </div>
-            </form>
+             </form>
+            <button id ="delete">Delete</button>
           </li>
         </ul>
       </div>

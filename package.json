@@ -10,7 +10,9 @@
     "fs": "0.0.1-security",
     "google-geocoder": "^0.2.1",
     "js2xmlparser": "^2.0.2",
-    "libxslt": "^0.6.3"
+    "libxmljs": "^0.18.7",
+    "libxslt": "^0.6.3",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {},
   "scripts": {
