@@ -17,21 +17,26 @@
      text-align: center;
     }
     body {
-      padding-top: 60px;
+      padding-top: 0px;
       padding-bottom: 60px;
       background: lightblue url("https://www.mulierchile.com/football-field-wallpaper/football-field-wallpaper-014.jpg") no-repeat fixed center;
     }
     
-    table,
-    th,
+   table{ background-color: #f6f6f6}
+   th{color:blue;
+      border-collapse: collapse;
+      border: 1px solid black;}
     td {
       border-collapse: collapse;
       border: 1px solid black;
       text-align: center;
-      background-color: #f2f2f2
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
       }
+     tr:hover {background-color: #ddd;}
     
-    
+   input { width: 75%; padding: .5em 1em; }
+   
+   .field{text-align:center;}
     #map {
         height: 200px;
         width: 100%;
@@ -45,17 +50,17 @@
         background-image: url('/css/searchicon.png');
         background-position: 10px 10px;
         background-repeat: no-repeat;
-        width: 37%;
+        width: 20%;
         font-size: 16px;
         padding: 5px 20px 5px 40px;
         border: 1px solid #ddd;
         margin-bottom: 12px;
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 12px;
         }
     
     /* Animated submit button styling */
-        #Btn1, #delete{
+        #Btn1{
           padding: 10px 20px;
           font-size: 16px;
           text-align: center;
@@ -65,7 +70,20 @@
           background-color: #4CAF50;
           border: none;
           border-radius: 15px;
-          box-shadow: 0 9px #999;
+          box-shadow: 0 3px #999;
+        }
+          #delete{
+          padding: 10px 20px;
+          font-size: 16px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color: #4CAF50;
+          border: none;
+          margin-left: 10px;
+          border-radius: 15px;
+          box-shadow: 0 3px #999;
         }
         #Btn1:hover {
           background-color: #3e8e41
@@ -82,12 +100,12 @@
    
          #Btn1:active {
                 background-color: #3e8e41;
-                box-shadow: 0 5px #666;
+                box-shadow: 0 3px #666;
                 transform: translateY(4px);
               }
         #delete:active {
             background-color: #3e8e41;
-            box-shadow: 0 5px #666;
+            box-shadow: 0 3px #666;
             transform: translateY(4px);
           }
   </style>
@@ -268,10 +286,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOtY3B9nrFWLW699A8i6V5IJQ_TKwmgZo&callback=initMap">
     </script>
     <div class="container">
-    <div class="navbar navbar-fixed-top navbar-inverse">
-      <div class="navbar-inner">
-       </div>
-        </div>
          <div class="page-header">
           <h1>Football Teams</h1>
            </div>
@@ -279,9 +293,10 @@
              </div>
               <div class="row">
                 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a Team ..">
+                  <button id ="delete">Delete</button>
                  <div id="results" class="span8">
                 </div>
-               <div class="span4">
+               <div class="span3">
               <ul class="nav nav-list well">
              <li>
             <form enctype='application/json' action="/post/json" method="post">
@@ -301,7 +316,6 @@
              <button id = "Btn1" type="submit">Submit</button>               
               </div>
              </form>
-            <button id ="delete">Delete</button>
           </li>
         </ul>
       </div>
