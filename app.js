@@ -134,9 +134,10 @@ router.post('/post/delete', function(req, res) {
 
   // Call appendJSON function and pass in body of the current POST request
   deleteJSON(req.body);
-
+  res.redirect('/');
 });
-/*//xml, xsd validator
+//xml, xsd validator
+
 var x = require('libxmljs');
 router.get('/Test', function(req,res){
  var xsd = fs.readFileSync('Teams.xsd', 'utf8')
@@ -144,9 +145,16 @@ router.get('/Test', function(req,res){
    var xml0 = fs.readFileSync('Teams.xml','utf8')
     var xmlDoc0 = x.parseXmlString(xml0);
      var result0 = xmlDoc0.validate(xsdDoc);
+        if(result0 === true){
+          res.end("valid");
+        }
+        else{
+          res.end("invalid")
+        }
+        
     console.log("result0:", result0);
-   res.end(result0.toString());
- })*/
+   //res.end(result0.toString());
+ })
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
   var addr = server.address();

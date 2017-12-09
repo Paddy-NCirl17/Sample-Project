@@ -6,7 +6,7 @@
 						<th onclick="sortTable(0)">Name</th>
 						<th onclick="sortTable(1)">Team</th>
 						<th onclick="sortTable(2)">Captain</th>
-						<th onclick="sortTable(3)">Nickname</th>
+						<th onclick="sortTable(3)">Stadium</th>
 					</tr>
 					<xsl:for-each select="myTeams/team">
 							<tr>
@@ -20,7 +20,7 @@
 									<xsl:value-of select="Captain"/>
 								</td>
 								<td id="{position()}">
-									<xsl:value-of select="Nickname"/>
+									<xsl:value-of select="Stadium"/>
 								</td>
 							</tr>
 					</xsl:for-each>

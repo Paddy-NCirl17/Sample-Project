@@ -47,7 +47,6 @@
    
     /* search feature styling*/
       #myInput {
-        background-image: url('/css/searchicon.png');
         background-position: 10px 10px;
         background-repeat: no-repeat;
         width: 20%;
@@ -60,7 +59,7 @@
         }
     
     /* Animated submit button styling */
-        #Btn1{
+          #Btn1{
           padding: 10px 20px;
           font-size: 16px;
           text-align: center;
@@ -71,6 +70,19 @@
           border: none;
           border-radius: 15px;
           box-shadow: 0 3px #999;
+        }
+          #validate{
+          padding: 10px 20px;
+          font-size: 16px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color: #4CAF50;
+          border: none;
+          margin-left: 55px;  
+          border-radius: 15px;
+          box-shadow: 0 3px #999
         }
           #delete{
           padding: 10px 20px;
@@ -91,6 +103,9 @@
         #delete:hover {
           background-color: #3e8e41
         }
+        #validate:hover {
+          background-color: #3e8e41
+        }
    
    
         .selected {
@@ -104,6 +119,11 @@
                 transform: translateY(4px);
               }
         #delete:active {
+            background-color: #3e8e41;
+            box-shadow: 0 3px #666;
+            transform: translateY(4px);
+          }
+        #validate:active {
             background-color: #3e8e41;
             box-shadow: 0 3px #666;
             transform: translateY(4px);
@@ -137,7 +157,21 @@
         delete_row($row);
       })
     };
-    
+     $(document).ready(function(){
+       $("#validate").click(function() {
+        console.log(true)
+        $.ajax({
+          url:"/Test",
+          type: "GET"
+        })
+        .done(function(response){
+          alert("The xml is " +response)
+        })
+      })
+       
+     })
+      
+   
       function delete_row(row_val) {
         $("#delete").click(function() {
           $.ajax({
@@ -147,8 +181,11 @@
               row: row_val
             },
             cache: false,
-            success: setTimeout(draw_table,2000)
+            success: function(){
+              setTimeout(draw_table,2000)               
+            }
           })
+          window.location="/";
         })
       }
     
@@ -238,53 +275,7 @@
 </script>
 </head>
 
-<body>
-  
-    <script>//Google API
-      function initMap() {
-       var data = <%- JSON.stringify(myTeams.team) %>;//Take info from Json file to set location.
-        console.log(data);
-        var result = {lat: Number(data[0].coordinates[0].location.lat), lng: Number(data[0].coordinates[0].location.lng)};
-          //console.log(result);
-           //var result = {lat: 52.6369, lng:-1.1398}
-          var map = new google.maps.Map(document.getElementById('map'), {
-         zoom: 6,
-        center: result    
-       });
-        var markers = [];
-         var contentString; 
-          //Takes coordinates from geocode and loops through each location.
-           for(i = 0; i < data.length; i++){
-             
-            var  marker = new google.maps.Marker({
-              
-            position: {lat: Number(data[i].coordinates[0].location.lat), lng: Number(data[i].coordinates[0].location.lng)},
-           animation: google.maps.Animation.DROP,
-          map: map,
-         });
-          console.log(i);
-         markers.push(marker);
-          //Stackoverflow referenced
-         var infowindow = new google.maps.InfoWindow({
-          content: contentString = '<div><h1 id="info">'+data[i].Team+'</h1>'+
-           '<p><b>'+"Captain: "+ data[i].Captain +'</p></b>'+
-            '<p><b>'+"Name: "+ data[i].Name +'</p></b>'+    //contents of Info Window
-             '<p><b>'+"Nickname: "+ data[i].Nickname+'</p></b></div>'
-             });
-            marker.infowindow = infowindow;
-           marker.addListener('mouseover', function() {
-          return this.infowindow.open(map,this);        //open info Window    
-        });
-          marker.addListener('mouseout', function() {
-          infowindow.close();        //close info Window      
-        });
-         //console.log(contentString);
-        }   
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOtY3B9nrFWLW699A8i6V5IJQ_TKwmgZo&callback=initMap">
-    </script>
+<body> 
     <div class="container">
          <div class="page-header">
           <h1>Football Teams</h1>
@@ -310,17 +301,68 @@
       <input type="text" name="Captain" placeholder="Captain">
        </div>
         <div class="field">
-         <input type="text" name="Nickname" placeholder="Nickname">
+         <input type="text" name="Stadium" placeholder="Stadium">
           </div>
            <div class="field">
-             <button id = "Btn1" type="submit">Submit</button>               
+             <button id = "Btn1" type="submit">Submit</button>         
               </div>
              </form>
+              <button id="validate">Validate Xml</button> 
           </li>
         </ul>
       </div>
     </div>
   </div>
 </body>
+      <script>//Google API
+      function initMap() {
+       var data = <%- JSON.stringify(myTeams.team) %>;//Take info from Json file to set location.
+        console.log(data.length);
+        if (data.length ==0){
+          var result = {lat: 52.6369, lng:-1.1398};
+        }
+        else{
+            var result = {lat: Number(data[0].coordinates[0].location.lat), lng: Number(data[0].coordinates[0].location.lng)};
+             }
+          //console.log(data[0].coordinates[0].location.lat);         
+          var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 6,
+        center: result    
+       });
+        var markers = [];
+         var contentString; 
+          //Takes coordinates from geocode and loops through each location.
+           for(i = 0; i < data.length; i++){
+             console.log(data[i]);
+            var  marker = new google.maps.Marker({
+              
+            position: {lat: Number(data[i].coordinates[0].location.lat), lng: Number(data[i].coordinates[0].location.lng)},
+           animation: google.maps.Animation.DROP,
+          map: map,
+         });
+          console.log(i);
+         markers.push(marker);
+          //Stackoverflow referenced
+         var infowindow = new google.maps.InfoWindow({
+          content: contentString = '<div><h1 id="info">'+data[i].Team+'</h1>'+
+           '<p><b>'+"Captain: "+ data[i].Captain +'</p></b>'+
+            '<p><b>'+"Name: "+ data[i].Name +'</p></b>'+    //contents of Info Window
+             '<p><b>'+"Nickname: "+ data[i].Nickname+'</p></b></div>'
+             });
+            marker.infowindow = infowindow;
+           marker.addListener('mouseover', function() {
+          return this.infowindow.open(map,this);        //open info Window    
+        });
+          marker.addListener('mouseout', function() {
+          infowindow.close();        //close info Window      
+        });
+             
+         //console.log(contentString);
+        } 
+      }
+    </script>
+      <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOtY3B9nrFWLW699A8i6V5IJQ_TKwmgZo&callback=initMap">
+    </script>
 
 </html>

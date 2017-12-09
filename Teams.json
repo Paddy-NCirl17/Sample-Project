@@ -2,153 +2,23 @@
     "myTeams": {
         "team": [
             {
-                "Name": "Stefan",
-                "Team": "Dublin, IE",
+                "Name": "Paddy",
+                "Team": "Southhampton Fc, Uk",
                 "Captain": "",
-                "Nickname": "",
-                "coordinates": [
-                    {
-                        "locality": {
-                            "long_name": "Dublin",
-                            "short_name": "Dublin"
-                        },
-                        "administrative_area_level_1": {
-                            "long_name": "County Dublin",
-                            "short_name": "County Dublin"
-                        },
-                        "country": {
-                            "long_name": "Ireland",
-                            "short_name": "IE"
-                        },
-                        "formatted_address": "Dublin, Ireland",
-                        "location": {
-                            "lat": 53.3498053,
-                            "lng": -6.2603097
-                        },
-                        "location_type": "APPROXIMATE",
-                        "location_bounds": {
-                            "northeast": {
-                                "lat": 53.42521010000001,
-                                "lng": -6.0439235
-                            },
-                            "southwest": {
-                                "lat": 53.22343009999999,
-                                "lng": -6.4474847
-                            }
-                        }
-                    }
-                ]
-            },
-            {
-                "Name": "Stefan",
-                "Team": "Newcastle, UK",
-                "Captain": "",
-                "Nickname": "",
-                "coordinates": [
-                    {
-                        "locality": {
-                            "long_name": "Newcastle upon Tyne",
-                            "short_name": "Newcastle upon Tyne"
-                        },
-                        "postal_town": {
-                            "long_name": "Newcastle upon Tyne",
-                            "short_name": "Newcastle upon Tyne"
-                        },
-                        "administrative_area_level_2": {
-                            "long_name": "Tyne and Wear",
-                            "short_name": "Tyne and Wear"
-                        },
-                        "administrative_area_level_1": {
-                            "long_name": "England",
-                            "short_name": "England"
-                        },
-                        "country": {
-                            "long_name": "United Kingdom",
-                            "short_name": "GB"
-                        },
-                        "formatted_address": "Newcastle upon Tyne, UK",
-                        "location": {
-                            "lat": 54.978252,
-                            "lng": -1.61778
-                        },
-                        "location_type": "APPROXIMATE",
-                        "location_bounds": {
-                            "northeast": {
-                                "lat": 55.0453044,
-                                "lng": -1.5326051
-                            },
-                            "southwest": {
-                                "lat": 54.9594399,
-                                "lng": -1.7810817
-                            }
-                        }
-                    }
-                ]
-            },
-            {
-                "Name": "Stefan",
-                "Team": "Liverpool,UK",
-                "Captain": "Stefan Gerrard",
-                "Nickname": "Stevie G",
-                "coordinates": [
-                    {
-                        "locality": {
-                            "long_name": "Liverpool",
-                            "short_name": "Liverpool"
-                        },
-                        "administrative_area_level_2": {
-                            "long_name": "Merseyside",
-                            "short_name": "Merseyside"
-                        },
-                        "administrative_area_level_1": {
-                            "long_name": "England",
-                            "short_name": "England"
-                        },
-                        "country": {
-                            "long_name": "United Kingdom",
-                            "short_name": "GB"
-                        },
-                        "formatted_address": "Liverpool, UK",
-                        "location": {
-                            "lat": 53.4083714,
-                            "lng": -2.9915726
-                        },
-                        "location_type": "APPROXIMATE",
-                        "location_bounds": {
-                            "northeast": {
-                                "lat": 53.503907,
-                                "lng": -2.8129382
-                            },
-                            "southwest": {
-                                "lat": 53.3204478,
-                                "lng": -3.0191793
-                            }
-                        }
-                    }
-                ]
-            },
-            {
-                "Name": "",
-                "Team": "Manchester United, UK",
-                "Captain": "",
-                "Nickname": "",
+                "Stadium": "Saint Marys",
                 "coordinates": [
                     {
                         "route": {
-                            "long_name": "Sir Matt Busby Way",
-                            "short_name": "Sir Matt Busby Way"
-                        },
-                        "locality": {
-                            "long_name": "Old Trafford",
-                            "short_name": "Old Trafford"
+                            "long_name": "Britannia Road",
+                            "short_name": "Britannia Rd"
                         },
                         "postal_town": {
-                            "long_name": "Manchester",
-                            "short_name": "Manchester"
+                            "long_name": "Southampton",
+                            "short_name": "Southampton"
                         },
                         "administrative_area_level_2": {
-                            "long_name": "Greater Manchester",
-                            "short_name": "Greater Manchester"
+                            "long_name": "Southampton",
+                            "short_name": "Southampton"
                         },
                         "administrative_area_level_1": {
                             "long_name": "England",
@@ -159,67 +29,67 @@
                             "short_name": "GB"
                         },
                         "postal_code": {
-                            "long_name": "M16 0RA",
-                            "short_name": "M16 0RA"
+                            "long_name": "SO14 5FP",
+                            "short_name": "SO14 5FP"
                         },
-                        "formatted_address": "Sir Matt Busby Way, Old Trafford, Manchester M16 0RA, UK",
+                        "formatted_address": "Britannia Rd, Southampton SO14 5FP, UK",
                         "location": {
-                            "lat": 53.4636889,
-                            "lng": -2.2914568
+                            "lat": 50.9058218,
+                            "lng": -1.390954
                         },
                         "location_type": "GEOMETRIC_CENTER"
                     }
                 ]
             },
             {
-                "Name": "",
-                "Team": "Cardiff City Fc, Uk",
+                "Name": "Paddy",
+                "Team": "Arsenal Fc, Uk",
                 "Captain": "",
-                "Nickname": "",
+                "Stadium": "The Emirates",
                 "coordinates": [
                     {
-                        "street_number": {
-                            "long_name": "82a",
-                            "short_name": "82a"
+                        "premise": {
+                            "long_name": "Emirates Stadium",
+                            "short_name": "Emirates Stadium"
                         },
                         "route": {
-                            "long_name": "Leckwith Road",
-                            "short_name": "Leckwith Rd"
+                            "long_name": "Hornsey Road",
+                            "short_name": "Hornsey Rd"
                         },
                         "postal_town": {
-                            "long_name": "Cardiff",
-                            "short_name": "Cardiff"
+                            "long_name": "London",
+                            "short_name": "London"
                         },
                         "administrative_area_level_2": {
-                            "long_name": "Cardiff",
-                            "short_name": "Cardiff"
+                            "long_name": "Greater London",
+                            "short_name": "Greater London"
                         },
                         "administrative_area_level_1": {
-                            "long_name": "Wales",
-                            "short_name": "Wales"
+                            "long_name": "England",
+                            "short_name": "England"
                         },
                         "country": {
                             "long_name": "United Kingdom",
                             "short_name": "GB"
                         },
                         "postal_code": {
-                            "long_name": "CF11 8AZ",
-                            "short_name": "CF11 8AZ"
+                            "long_name": "N7 7AJ",
+                            "short_name": "N7 7AJ"
                         },
-                        "formatted_address": "82a Leckwith Rd, Cardiff CF11 8AZ, UK",
+                        "formatted_address": "Emirates Stadium, Hornsey Rd, London N7 7AJ, UK",
                         "location": {
-                            "lat": 51.4728226,
-                            "lng": -3.2030122
+                            "lat": 51.5548527,
+                            "lng": -0.1091085
                         },
                         "location_type": "ROOFTOP"
                     }
                 ]
             },
             {
-                "Name": "Patrick",
-                "Team": "Chelsea Fc, Uk",
-                "Captain": "John Terry",
-                "Nickname": "The Blues",
+                "Name": "Paddy",
+                "Team": "Chelsea Fc, UK",
+                "Captain": "Tim Cahill",
+                "Stadium": "Stanford Bridge",
                 "coordinates": [
                     {
                         "establishment": {
@@ -268,106 +138,86 @@
                 ]
             },
             {
-                "Name": [
-                    "Patrick"
-                ],
-                "Team": [
-                    "Manchester United, UK"
-                ],
-                "Captain": [
-                    "Paul Pogba"
-                ],
-                "Nickname": [
-                    "Red Devils"
-                ],
+                "Name": "Patrick",
+                "Team": "Liverpool Fc, Uk",
+                "Captain": "Phillepe C",
+                "Stadium": "Anfield",
                 "coordinates": [
                     {
-                        "route": [
-                            {
-                                "long_name": [
-                                    "Sir Matt Busby Way"
-                                ],
-                                "short_name": [
-                                    "Sir Matt Busby Way"
-                                ]
-                            }
-                        ],
-                        "locality": [
-                            {
-                                "long_name": [
-                                    "Old Trafford"
-                                ],
-                                "short_name": [
-                                    "Old Trafford"
-                                ]
-                            }
-                        ],
-                        "postal_town": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Greater Manchester"
-                                ],
-                                "short_name": [
-                                    "Greater Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "England"
-                                ],
-                                "short_name": [
-                                    "England"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United Kingdom"
-                                ],
-                                "short_name": [
-                                    "GB"
-                                ]
-                            }
-                        ],
-                        "postal_code": [
-                            {
-                                "long_name": [
-                                    "M16 0RA"
-                                ],
-                                "short_name": [
-                                    "M16 0RA"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "Sir Matt Busby Way, Old Trafford, Manchester M16 0RA, UK"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "53.4636889"
-                                ],
-                                "lng": [
-                                    "-2.2914568"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "GEOMETRIC_CENTER"
-                        ]
+                        "route": {
+                            "long_name": "Anfield Road",
+                            "short_name": "Anfield Rd"
+                        },
+                        "postal_town": {
+                            "long_name": "Liverpool",
+                            "short_name": "Liverpool"
+                        },
+                        "administrative_area_level_2": {
+                            "long_name": "Merseyside",
+                            "short_name": "Merseyside"
+                        },
+                        "administrative_area_level_1": {
+                            "long_name": "England",
+                            "short_name": "England"
+                        },
+                        "country": {
+                            "long_name": "United Kingdom",
+                            "short_name": "GB"
+                        },
+                        "postal_code": {
+                            "long_name": "L4 0TH",
+                            "short_name": "L4 0TH"
+                        },
+                        "formatted_address": "Anfield Rd, Liverpool L4 0TH, UK",
+                        "location": {
+                            "lat": 53.42999039999999,
+                            "lng": -2.9616719
+                        },
+                        "location_type": "GEOMETRIC_CENTER"
+                    }
+                ]
+            },
+            {
+                "Name": "Paddy",
+                "Team": "Manchester United, Uk",
+                "Captain": "Paul Pogba",
+                "Stadium": "Old trafford",
+                "coordinates": [
+                    {
+                        "route": {
+                            "long_name": "Sir Matt Busby Way",
+                            "short_name": "Sir Matt Busby Way"
+                        },
+                        "locality": {
+                            "long_name": "Old Trafford",
+                            "short_name": "Old Trafford"
+                        },
+                        "postal_town": {
+                            "long_name": "Manchester",
+                            "short_name": "Manchester"
+                        },
+                        "administrative_area_level_2": {
+                            "long_name": "Greater Manchester",
+                            "short_name": "Greater Manchester"
+                        },
+                        "administrative_area_level_1": {
+                            "long_name": "England",
+                            "short_name": "England"
+                        },
+                        "country": {
+                            "long_name": "United Kingdom",
+                            "short_name": "GB"
+                        },
+                        "postal_code": {
+                            "long_name": "M16 0RA",
+                            "short_name": "M16 0RA"
+                        },
+                        "formatted_address": "Sir Matt Busby Way, Old Trafford, Manchester M16 0RA, UK",
+                        "location": {
+                            "lat": 53.4636889,
+                            "lng": -2.2914568
+                        },
+                        "location_type": "GEOMETRIC_CENTER"
                     }
                 ]
             },
@@ -376,660 +226,12 @@
                     "Patrick"
                 ],
                 "Team": [
-                    "Newcastle Utd FC, UK"
+                    "Liverpool Fc, Uk"
                 ],
                 "Captain": [
-                    "HJUGLJH"
+                    "Phillepe C"
                 ],
-                "Nickname": [
-                    "flwekhl"
-                ],
-                "coordinates": [
-                    {
-                        "premise": [
-                            {
-                                "long_name": [
-                                    "St James' Park"
-                                ],
-                                "short_name": [
-                                    "St James' Park"
-                                ]
-                            }
-                        ],
-                        "route": [
-                            {
-                                "long_name": [
-                                    "Strawberry Place"
-                                ],
-                                "short_name": [
-                                    "Strawberry Pl"
-                                ]
-                            }
-                        ],
-                        "postal_town": [
-                            {
-                                "long_name": [
-                                    "Newcastle upon Tyne"
-                                ],
-                                "short_name": [
-                                    "Newcastle upon Tyne"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Tyne and Wear"
-                                ],
-                                "short_name": [
-                                    "Tyne and Wear"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "England"
-                                ],
-                                "short_name": [
-                                    "England"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United Kingdom"
-                                ],
-                                "short_name": [
-                                    "GB"
-                                ]
-                            }
-                        ],
-                        "postal_code": [
-                            {
-                                "long_name": [
-                                    "NE1 4ST"
-                                ],
-                                "short_name": [
-                                    "NE1 4ST"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "St James' Park, Strawberry Pl, Newcastle upon Tyne NE1 4ST, UK"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "54.9750986"
-                                ],
-                                "lng": [
-                                    "-1.623124"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "ROOFTOP"
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": [
-                    "Patrick"
-                ],
-                "Team": [
-                    "Manchester United, UK"
-                ],
-                "Captain": [
-                    "Michael Carrick"
-                ],
-                "Nickname": [
-                    "Red Devils"
-                ],
-                "coordinates": [
-                    {
-                        "route": [
-                            {
-                                "long_name": [
-                                    "Sir Matt Busby Way"
-                                ],
-                                "short_name": [
-                                    "Sir Matt Busby Way"
-                                ]
-                            }
-                        ],
-                        "locality": [
-                            {
-                                "long_name": [
-                                    "Old Trafford"
-                                ],
-                                "short_name": [
-                                    "Old Trafford"
-                                ]
-                            }
-                        ],
-                        "postal_town": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Greater Manchester"
-                                ],
-                                "short_name": [
-                                    "Greater Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "England"
-                                ],
-                                "short_name": [
-                                    "England"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United Kingdom"
-                                ],
-                                "short_name": [
-                                    "GB"
-                                ]
-                            }
-                        ],
-                        "postal_code": [
-                            {
-                                "long_name": [
-                                    "M16 0RA"
-                                ],
-                                "short_name": [
-                                    "M16 0RA"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "Sir Matt Busby Way, Old Trafford, Manchester M16 0RA, UK"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "53.4636889"
-                                ],
-                                "lng": [
-                                    "-2.2914568"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "GEOMETRIC_CENTER"
-                        ]
-                    },
-                    {
-                        "street_number": [
-                            {
-                                "long_name": [
-                                    "26"
-                                ],
-                                "short_name": [
-                                    "26"
-                                ]
-                            }
-                        ],
-                        "route": [
-                            {
-                                "long_name": [
-                                    "Sir Matt Busby Way"
-                                ],
-                                "short_name": [
-                                    "Sir Matt Busby Way"
-                                ]
-                            }
-                        ],
-                        "locality": [
-                            {
-                                "long_name": [
-                                    "Stretford"
-                                ],
-                                "short_name": [
-                                    "Stretford"
-                                ]
-                            }
-                        ],
-                        "postal_town": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Greater Manchester"
-                                ],
-                                "short_name": [
-                                    "Greater Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "England"
-                                ],
-                                "short_name": [
-                                    "England"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United Kingdom"
-                                ],
-                                "short_name": [
-                                    "GB"
-                                ]
-                            }
-                        ],
-                        "postal_code": [
-                            {
-                                "long_name": [
-                                    "M16 0RA"
-                                ],
-                                "short_name": [
-                                    "M16 0RA"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "26 Sir Matt Busby Way, Stretford, Manchester M16 0RA, UK"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "53.4622458"
-                                ],
-                                "lng": [
-                                    "-2.2888931"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "ROOFTOP"
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": [
-                    "Patrick"
-                ],
-                "Team": [
-                    "Manchester United"
-                ],
-                "Captain": [
-                    "Michael Carrick"
-                ],
-                "Nickname": [
-                    "Red Devils"
-                ],
-                "coordinates": [
-                    {
-                        "city": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "province_state": [
-                            {
-                                "long_name": [
-                                    "New Hampshire"
-                                ],
-                                "short_name": [
-                                    "NH"
-                                ]
-                            }
-                        ],
-                        "locality": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Hillsborough County"
-                                ],
-                                "short_name": [
-                                    "Hillsborough County"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "New Hampshire"
-                                ],
-                                "short_name": [
-                                    "NH"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United States"
-                                ],
-                                "short_name": [
-                                    "US"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "Manchester, NH, USA"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "42.9956397"
-                                ],
-                                "lng": [
-                                    "-71.4547891"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "APPROXIMATE"
-                        ],
-                        "location_bounds": [
-                            {
-                                "northeast": [
-                                    {
-                                        "lat": [
-                                            "43.0514741"
-                                        ],
-                                        "lng": [
-                                            "-71.37540890000001"
-                                        ]
-                                    }
-                                ],
-                                "southwest": [
-                                    {
-                                        "lat": [
-                                            "42.889586"
-                                        ],
-                                        "lng": [
-                                            "-71.5127129"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "city": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "province_state": [
-                            {
-                                "long_name": [
-                                    "Connecticut"
-                                ],
-                                "short_name": [
-                                    "CT"
-                                ]
-                            }
-                        ],
-                        "locality": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_3": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Hartford County"
-                                ],
-                                "short_name": [
-                                    "Hartford County"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "Connecticut"
-                                ],
-                                "short_name": [
-                                    "CT"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United States"
-                                ],
-                                "short_name": [
-                                    "US"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "Manchester, CT, USA"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "41.7759301"
-                                ],
-                                "lng": [
-                                    "-72.52150089999999"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "APPROXIMATE"
-                        ],
-                        "location_bounds": [
-                            {
-                                "northeast": [
-                                    {
-                                        "lat": [
-                                            "41.820298"
-                                        ],
-                                        "lng": [
-                                            "-72.4637291"
-                                        ]
-                                    }
-                                ],
-                                "southwest": [
-                                    {
-                                        "lat": [
-                                            "41.7337989"
-                                        ],
-                                        "lng": [
-                                            "-72.5835331"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "city": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "province_state": [
-                            {
-                                "long_name": [
-                                    "Tennessee"
-                                ],
-                                "short_name": [
-                                    "TN"
-                                ]
-                            }
-                        ],
-                        "locality": [
-                            {
-                                "long_name": [
-                                    "Manchester"
-                                ],
-                                "short_name": [
-                                    "Manchester"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Coffee County"
-                                ],
-                                "short_name": [
-                                    "Coffee County"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "Tennessee"
-                                ],
-                                "short_name": [
-                                    "TN"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United States"
-                                ],
-                                "short_name": [
-                                    "US"
-                                ]
-                            }
-                        ],
-                        "postal_code": [
-                            {
-                                "long_name": [
-                                    "37355"
-                                ],
-                                "short_name": [
-                                    "37355"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "Manchester, TN 37355, USA"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "35.4817431"
-                                ],
-                                "lng": [
-                                    "-86.0885993"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "APPROXIMATE"
-                        ],
-                        "location_bounds": [
-                            {
-                                "northeast": [
-                                    {
-                                        "lat": [
-                                            "35.5090069"
-                                        ],
-                                        "lng": [
-                                            "-86.0066568"
-                                        ]
-                                    }
-                                ],
-                                "southwest": [
-                                    {
-                                        "lat": [
-                                            "35.4106149"
-                                        ],
-                                        "lng": [
-                                            "-86.13592779999999"
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": [
-                    "Keith"
-                ],
-                "Team": [
-                    "Liverpool FC, UK"
-                ],
-                "Captain": [
-                    "Philip Countinho"
-                ],
-                "Nickname": [
+                "Stadium": [
                     "The Reds"
                 ],
                 "coordinates": [
@@ -1109,130 +311,6 @@
                         ],
                         "location_type": [
                             "GEOMETRIC_CENTER"
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": [
-                    "Patrick Moran"
-                ],
-                "Team": [
-                    "Chelsea FC, UK"
-                ],
-                "Captain": [
-                    "Patrick Moran"
-                ],
-                "Nickname": [
-                    "Paddy"
-                ],
-                "coordinates": [
-                    {
-                        "establishment": [
-                            {
-                                "long_name": [
-                                    "Stamford Bridge"
-                                ],
-                                "short_name": [
-                                    "Stamford Bridge"
-                                ]
-                            }
-                        ],
-                        "street_number": [
-                            {
-                                "long_name": [
-                                    "367B"
-                                ],
-                                "short_name": [
-                                    "367B"
-                                ]
-                            }
-                        ],
-                        "route": [
-                            {
-                                "long_name": [
-                                    "Fulham Road"
-                                ],
-                                "short_name": [
-                                    "Fulham Rd"
-                                ]
-                            }
-                        ],
-                        "neighborhood": [
-                            {
-                                "long_name": [
-                                    "Fulham"
-                                ],
-                                "short_name": [
-                                    "Fulham"
-                                ]
-                            }
-                        ],
-                        "postal_town": [
-                            {
-                                "long_name": [
-                                    "London"
-                                ],
-                                "short_name": [
-                                    "London"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_2": [
-                            {
-                                "long_name": [
-                                    "Greater London"
-                                ],
-                                "short_name": [
-                                    "Greater London"
-                                ]
-                            }
-                        ],
-                        "administrative_area_level_1": [
-                            {
-                                "long_name": [
-                                    "England"
-                                ],
-                                "short_name": [
-                                    "England"
-                                ]
-                            }
-                        ],
-                        "country": [
-                            {
-                                "long_name": [
-                                    "United Kingdom"
-                                ],
-                                "short_name": [
-                                    "GB"
-                                ]
-                            }
-                        ],
-                        "postal_code": [
-                            {
-                                "long_name": [
-                                    "SW6 1HS"
-                                ],
-                                "short_name": [
-                                    "SW6 1HS"
-                                ]
-                            }
-                        ],
-                        "formatted_address": [
-                            "Stamford Bridge, 367B Fulham Rd, Fulham, London SW6 1HS, UK"
-                        ],
-                        "location": [
-                            {
-                                "lat": [
-                                    "51.4814111"
-                                ],
-                                "lng": [
-                                    "-0.1913945"
-                                ]
-                            }
-                        ],
-                        "location_type": [
-                            "ROOFTOP"
                         ]
                     }
                 ]

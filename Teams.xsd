@@ -8,51 +8,11 @@
               <xs:element type="xs:string" name="Name"/>
               <xs:element type="xs:string" name="Team"/>
               <xs:element type="xs:string" name="Captain"/>
-              <xs:element type="xs:string" name="Nickname"/>
-              <xs:element name="coordinates" maxOccurs="unbounded" minOccurs="0">
+              <xs:element type="xs:string" name="Stadium"/>
+              <xs:element name="coordinates">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="premise" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="establishment" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="street_number" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="route" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="city" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="province_state" minOccurs="0">
+                    <xs:element name="route">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element type="xs:string" name="long_name"/>
@@ -68,23 +28,7 @@
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="neighborhood" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="postal_town" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="long_name"/>
-                          <xs:element type="xs:string" name="short_name"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="administrative_area_level_3" minOccurs="0">
+                    <xs:element name="postal_town">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element type="xs:string" name="long_name"/>
@@ -116,7 +60,7 @@
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="postal_code" minOccurs="0">
+                    <xs:element name="postal_code">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element type="xs:string" name="long_name"/>
@@ -134,28 +78,6 @@
                       </xs:complexType>
                     </xs:element>
                     <xs:element type="xs:string" name="location_type"/>
-                    <xs:element name="location_bounds" minOccurs="0">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="northeast">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element type="xs:float" name="lat"/>
-                                <xs:element type="xs:float" name="lng"/>
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                          <xs:element name="southwest">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element type="xs:float" name="lat"/>
-                                <xs:element type="xs:float" name="lng"/>
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
