@@ -22,10 +22,20 @@
     "type": "git",
     "url": "git+https://github.com/Paddy-NCirl17/Sample-Project.git"
   },
+  
+  "authors": {
   "author": "Patrick Moran",
-  "homepage": "https://github.com/Paddy-NCirl17/Sample-Project.git#readme"
-},
-"Project is based on https://github.com/mikhail-nci/wad-simple-demo"
-},
-"Code that is not our own, has been take from StackOverflow, W3Schools, Google for The Maps API."
-}
+  "author": "Joseph Ryan"
+  },
+  
+  "project-details":{
+  "homepage": "https://github.com/Paddy-NCirl17/Sample-Project.git#readme",
+  "project-template": "Project is based on https://github.com/mikhail-nci/wad-simple-demo"
+  },
+
+  "project-references": "Code that is not our own, has been take from StackOverflow, W3Schools, Google for The Maps API.",
+  "filter-table": "https://www.w3schools.com/howto/howto_js_filter_table.asp",
+  "sort-table": "https://www.w3schools.com/howto/howto_js_sort_table.asp",
+  "animated-button": "https://www.w3schools.com/howto/howto_css_animate_buttons.asp"
+  
+  }
