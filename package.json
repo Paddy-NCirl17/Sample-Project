@@ -35,6 +35,7 @@
 
   "project-references": "Code that is not our own, has been take from StackOverflow, W3Schools, Google for The Maps API.",
   "XSD Generator": "https://www.freeformatter.com/xsd-generator.html @Patrick Moran",
+  "XSD Compare code": "https://stackoverflow.com/questions/14856643/validating-xml-against-a-schema-xsd-in-nodejs @Patrick Moran",
   "JSonStringify": "https://www.w3schools.com/js/js_json_stringify.asp @Patrick Moran",
   "Google Map": "https://developers.google.com/maps/documentation/javascript/tutorial @Patrick Moran",
   "info-window": "https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max @Patrick Moran",
