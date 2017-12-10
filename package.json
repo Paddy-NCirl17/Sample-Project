@@ -34,6 +34,14 @@
   },
 
   "project-references": "Code that is not our own, has been take from StackOverflow, W3Schools, Google for The Maps API.",
+  "XSD Generator": "https://www.freeformatter.com/xsd-generator.html @Patrick Moran",
+  "JSonStringify": "https://www.w3schools.com/js/js_json_stringify.asp @Patrick Moran",
+  "Google Map": "https://developers.google.com/maps/documentation/javascript/tutorial @Patrick Moran",
+  "info-window": "https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple-max @Patrick Moran",
+  "marker-animations": "https://developers.google.com/maps/documentation/javascript/examples/marker-animations @Patrick Moran",
+  "multiple markers": "https://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example @Patrick Moran",
+  "Delete function": "Mikhail",
+  "Table-CSS": "https://stackoverflow.com/questions/5492900/changing-background-colour-of-tr-element-on-mouseover @Patrick Moran",
   "filter-table": "https://www.w3schools.com/howto/howto_js_filter_table.asp @Joseph Ryan",
   "sort-table": "https://www.w3schools.com/howto/howto_js_sort_table.asp @Joseph Ryan",
   "animated-button": "https://www.w3schools.com/howto/howto_css_animate_buttons.asp @Joseph Ryan"
