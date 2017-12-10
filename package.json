@@ -34,8 +34,8 @@
   },
 
   "project-references": "Code that is not our own, has been take from StackOverflow, W3Schools, Google for The Maps API.",
-  "filter-table": "https://www.w3schools.com/howto/howto_js_filter_table.asp",
-  "sort-table": "https://www.w3schools.com/howto/howto_js_sort_table.asp",
-  "animated-button": "https://www.w3schools.com/howto/howto_css_animate_buttons.asp"
+  "filter-table": "https://www.w3schools.com/howto/howto_js_filter_table.asp @Joseph Ryan",
+  "sort-table": "https://www.w3schools.com/howto/howto_js_sort_table.asp @Joseph Ryan",
+  "animated-button": "https://www.w3schools.com/howto/howto_css_animate_buttons.asp @Joseph Ryan"
   
   }
